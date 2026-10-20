@@ -1,0 +1,113 @@
+{
+  "monthly": [
+    {
+      "month_index": 0,
+      "month": "2026-09",
+      "mrr_base": 423839.67,
+      "mrr_worst": 423839.67,
+      "mrr_best": 423839.67,
+      "arr_base": 5086076.04,
+      "pct_vs_now": 0.0
+    },
+    {
+      "month_index": 1,
+      "month": "2026-10",
+      "mrr_base": 417119.2245,
+      "mrr_worst": 415487.0915,
+      "mrr_best": 419621.7348,
+      "arr_base": 5005430.6943,
+      "pct_vs_now": -1.5856
+    },
+    {
+      "month_index": 2,
+      "month": "2026-11",
+      "mrr_base": 413177.1869,
+      "mrr_worst": 411108.7109,
+      "mrr_best": 415495.5251,
+      "arr_base": 4958126.2432,
+      "pct_vs_now": -2.5157
+    },
+    {
+      "month_index": 3,
+      "month": "2026-12",
+      "mrr_base": 409250.5398,
+      "mrr_worst": 406387.4794,
+      "mrr_best": 411579.5655,
+      "arr_base": 4911006.4779,
+      "pct_vs_now": -3.4421
+    },
+    {
+      "month_index": 4,
+      "month": "2027-01",
+      "mrr_base": 399094.9394,
+      "mrr_worst": 392822.0606,
+      "mrr_best": 405664.4807,
+      "arr_base": 4789139.2723,
+      "pct_vs_now": -5.8382
+    },
+    {
+      "month_index": 5,
+      "month": "2027-02",
+      "mrr_base": 394044.0471,
+      "mrr_worst": 385832.7051,
+      "mrr_best": 402058.8406,
+      "arr_base": 4728528.5652,
+      "pct_vs_now": -7.0299
+    },
+    {
+      "month_index": 6,
+      "month": "2027-03",
+      "mrr_base": 389518.7193,
+      "mrr_worst": 381172.8494,
+      "mrr_best": 397812.4715,
+      "arr_base": 4674224.6313,
+      "pct_vs_now": -8.0976
+    }
+  ],
+  "meta": {
+    "horizon_months": 6,
+    "method": "Kaplan-Meier by Plan x Billing_Cycle (n>=30, else Plan, else pooled), conditional on tenure; 3-month survival blended 50/50 with classifier churn_prob; bands from 200 bootstrap resamples (10th/90th pct)",
+    "blend_note": "bands reflect survival-curve uncertainty only; churn_prob held fixed",
+    "backtest": {
+      "available": true,
+      "months_held_out": 3,
+      "expected_retained_mrr": 351760.7234,
+      "actual_retained_mrr": 357334.72,
+      "mape_pct": 1.5599,
+      "per_plan": {
+        "Enterprise": {
+          "n": 27,
+          "expected": 184668.6533,
+          "actual": 190287.46,
+          "abs_pct_error": 2.9528
+        },
+        "Growth": {
+          "n": 123,
+          "expected": 29358.9223,
+          "actual": 30463.49,
+          "abs_pct_error": 3.6259
+        },
+        "Pro": {
+          "n": 94,
+          "expected": 135194.3967,
+          "actual": 134167.22,
+          "abs_pct_error": 0.7656
+        },
+        "Starter": {
+          "n": 78,
+          "expected": 2538.7512,
+          "actual": 2416.55,
+          "abs_pct_error": 5.0568
+        }
+      },
+      "n_accounts": 322,
+      "label": "backtested"
+    },
+    "label": "backtested",
+    "expansion_model": {
+      "used": true,
+      "mae": 6.4444,
+      "r2": 0.6434
+    }
+  }
+}

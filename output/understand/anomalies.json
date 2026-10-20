@@ -1,0 +1,107 @@
+{
+  "count": 17,
+  "items": [
+    {
+      "Customer_ID": "C0108",
+      "Company": "Cedar Studios",
+      "ARR_Current": 19223.28,
+      "anomaly_reason": "High balance to mrr (z=4.0)"
+    },
+    {
+      "Customer_ID": "C0122",
+      "Company": "Pulse Solutions",
+      "ARR_Current": 26005.56,
+      "anomaly_reason": "High balance to mrr (z=3.0)"
+    },
+    {
+      "Customer_ID": "C0130",
+      "Company": "Nova Works Inc",
+      "ARR_Current": 1853.64,
+      "anomaly_reason": "High Last Login Days Ago (z=4.1)"
+    },
+    {
+      "Customer_ID": "C0145",
+      "Company": "Nova Retail LLC",
+      "ARR_Current": 54854.4,
+      "anomaly_reason": "High Outstanding Balance (z=7.0)"
+    },
+    {
+      "Customer_ID": "C0160",
+      "Company": "Apex Logistics",
+      "ARR_Current": 36619.92,
+      "anomaly_reason": "High Outstanding Balance (z=6.2)"
+    },
+    {
+      "Customer_ID": "C0167",
+      "Company": "Blue Dynamics Inc",
+      "ARR_Current": 125472.0,
+      "anomaly_reason": "High Outstanding Balance (z=7.0)"
+    },
+    {
+      "Customer_ID": "C0228",
+      "Company": "Summit Capital Ltd",
+      "ARR_Current": 126114.48,
+      "anomaly_reason": "High Outstanding Balance (z=7.0)"
+    },
+    {
+      "Customer_ID": "C0243",
+      "Company": "Quantum Systems",
+      "ARR_Current": 139399.68,
+      "anomaly_reason": "High Outstanding Balance (z=7.0)"
+    },
+    {
+      "Customer_ID": "C0258",
+      "Company": "Cobalt Solutions Inc",
+      "ARR_Current": 120466.2,
+      "anomaly_reason": "High Late Invoices (z=4.8)"
+    },
+    {
+      "Customer_ID": "C0284",
+      "Company": "Quantum Partners Inc",
+      "ARR_Current": 29847.12,
+      "anomaly_reason": "High Outstanding Balance (z=4.7)"
+    },
+    {
+      "Customer_ID": "C0287",
+      "Company": "Vertex Dynamics Inc",
+      "ARR_Current": 25160.52,
+      "anomaly_reason": "High balance to mrr (z=4.7)"
+    },
+    {
+      "Customer_ID": "C0380",
+      "Company": "Zenith Analytics LLC",
+      "ARR_Current": 410.64,
+      "anomaly_reason": "High Late Invoices (z=3.5)"
+    },
+    {
+      "Customer_ID": "C0429",
+      "Company": "Apex Group LLC",
+      "ARR_Current": 97770.72,
+      "anomaly_reason": "High Late Invoices (z=4.8)"
+    },
+    {
+      "Customer_ID": "C0447",
+      "Company": "Pulse Dynamics Co",
+      "ARR_Current": 32702.04,
+      "anomaly_reason": "High Outstanding Balance (z=3.6)"
+    },
+    {
+      "Customer_ID": "C0451",
+      "Company": "Orbit Health Inc",
+      "ARR_Current": 64358.28,
+      "anomaly_reason": "High Avg Days to Pay (z=2.9)"
+    },
+    {
+      "Customer_ID": "C0463",
+      "Company": "Mosaic Dynamics Ltd",
+      "ARR_Current": 116354.64,
+      "anomaly_reason": "High Current MRR (z=3.7)"
+    },
+    {
+      "Customer_ID": "C0468",
+      "Company": "Pulse Partners Inc",
+      "ARR_Current": 15134.16,
+      "anomaly_reason": "High balance to mrr (z=4.5)"
+    }
+  ]
+}

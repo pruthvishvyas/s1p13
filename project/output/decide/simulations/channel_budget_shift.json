@@ -1,0 +1,57 @@
+{
+  "variable": "shift_pct_of_worst_channel_cac",
+  "range": [
+    10,
+    30,
+    10
+  ],
+  "assumptions": [
+    "Total CAC spend constant; blended payback = total CAC / monthly gross profit of acquired accounts",
+    "Marginal efficiency of added spend in the best channel = 80 percent of its average (assumption)",
+    "Average CAC and monthly gross profit per account are held constant; status: ok"
+  ],
+  "results": [
+    {
+      "input": {
+        "shift_pct": 10,
+        "from_channel": "Events",
+        "to_channel": "Organic SEO"
+      },
+      "outputs": {
+        "accounts_lost": 4.8,
+        "accounts_gained": 14.8656,
+        "blended_payback_before_months": 2.2961,
+        "blended_payback_after_months": 2.2277,
+        "payback_change_months": -0.0683
+      }
+    },
+    {
+      "input": {
+        "shift_pct": 20,
+        "from_channel": "Events",
+        "to_channel": "Organic SEO"
+      },
+      "outputs": {
+        "accounts_lost": 9.6,
+        "accounts_gained": 29.7312,
+        "blended_payback_before_months": 2.2961,
+        "blended_payback_after_months": 2.1634,
+        "payback_change_months": -0.1327
+      }
+    },
+    {
+      "input": {
+        "shift_pct": 30,
+        "from_channel": "Events",
+        "to_channel": "Organic SEO"
+      },
+      "outputs": {
+        "accounts_lost": 14.4,
+        "accounts_gained": 44.5968,
+        "blended_payback_before_months": 2.2961,
+        "blended_payback_after_months": 2.1026,
+        "payback_change_months": -0.1934
+      }
+    }
+  ]
+}

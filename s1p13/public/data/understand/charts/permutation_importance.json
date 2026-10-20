@@ -1,0 +1,66 @@
+{
+  "type": "bar",
+  "title": "Top drivers (permutation importance)",
+  "data": [
+    {
+      "label": "login recency band",
+      "value": 0.1114
+    },
+    {
+      "label": "inactive flag",
+      "value": 0.0505
+    },
+    {
+      "label": "CAC Payback Months",
+      "value": 0.0
+    },
+    {
+      "label": "Discount pct",
+      "value": 0.0
+    },
+    {
+      "label": "expansion flag",
+      "value": 0.0
+    },
+    {
+      "label": "Support Tickets 90d",
+      "value": 0.0
+    },
+    {
+      "label": "usage per seat",
+      "value": 0.0
+    },
+    {
+      "label": "contraction flag",
+      "value": 0.0
+    },
+    {
+      "label": "Seats",
+      "value": 0.0
+    },
+    {
+      "label": "Acquisition Channel",
+      "value": 0.0
+    },
+    {
+      "label": "discount depth band",
+      "value": 0.0
+    },
+    {
+      "label": "Company Size",
+      "value": 0.0
+    },
+    {
+      "label": "Region",
+      "value": 0.0
+    },
+    {
+      "label": "plan x cycle",
+      "value": 0.0
+    },
+    {
+      "label": "size x channel",
+      "value": 0.0
+    }
+  ]
+}

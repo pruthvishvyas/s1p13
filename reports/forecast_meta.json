@@ -1,0 +1,46 @@
+{
+  "horizon_months": 6,
+  "method": "Kaplan-Meier by Plan x Billing_Cycle (n>=30, else Plan, else pooled), conditional on tenure; 3-month survival blended 50/50 with classifier churn_prob; bands from 200 bootstrap resamples (10th/90th pct)",
+  "blend_note": "bands reflect survival-curve uncertainty only; churn_prob held fixed",
+  "backtest": {
+    "available": true,
+    "months_held_out": 3,
+    "expected_retained_mrr": 351760.7234,
+    "actual_retained_mrr": 357334.72,
+    "mape_pct": 1.5599,
+    "per_plan": {
+      "Enterprise": {
+        "n": 27,
+        "expected": 184668.6533,
+        "actual": 190287.46,
+        "abs_pct_error": 2.9528
+      },
+      "Growth": {
+        "n": 123,
+        "expected": 29358.9223,
+        "actual": 30463.49,
+        "abs_pct_error": 3.6259
+      },
+      "Pro": {
+        "n": 94,
+        "expected": 135194.3967,
+        "actual": 134167.22,
+        "abs_pct_error": 0.7656
+      },
+      "Starter": {
+        "n": 78,
+        "expected": 2538.7512,
+        "actual": 2416.55,
+        "abs_pct_error": 5.0568
+      }
+    },
+    "n_accounts": 322,
+    "label": "backtested"
+  },
+  "label": "backtested",
+  "expansion_model": {
+    "used": true,
+    "mae": 6.4444,
+    "r2": 0.6434
+  }
+}

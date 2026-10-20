@@ -1,0 +1,27 @@
+{
+  "charts": [
+    "calibration_curve",
+    "channel_ltv_cac",
+    "channel_payback",
+    "churn_by_industry",
+    "churn_by_login_recency",
+    "churn_by_plan",
+    "churn_by_region",
+    "churn_reason_mrr_lost",
+    "cohort_retained_mrr_pct",
+    "correlation_heatmap",
+    "discount_band_churn_pct",
+    "discount_band_margin_per_seat",
+    "forecast_mrr_base",
+    "forecast_mrr_best",
+    "forecast_mrr_worst",
+    "mrr_waterfall",
+    "permutation_importance",
+    "pr_curve",
+    "survival_all",
+    "survival_plan_enterprise",
+    "survival_plan_growth",
+    "survival_plan_pro",
+    "survival_plan_starter"
+  ]
+}

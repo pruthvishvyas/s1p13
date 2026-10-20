@@ -1,0 +1,38 @@
+{
+  "type": "bar",
+  "title": "Churn rate by industry",
+  "data": [
+    {
+      "label": "Healthcare",
+      "value": 26.6667
+    },
+    {
+      "label": "Logistics",
+      "value": 28.8136
+    },
+    {
+      "label": "Media",
+      "value": 29.7297
+    },
+    {
+      "label": "Manufacturing",
+      "value": 31.4286
+    },
+    {
+      "label": "Education",
+      "value": 32.6087
+    },
+    {
+      "label": "E-commerce",
+      "value": 35.6322
+    },
+    {
+      "label": "Professional Services",
+      "value": 36.8421
+    },
+    {
+      "label": "Fintech",
+      "value": 41.5385
+    }
+  ]
+}

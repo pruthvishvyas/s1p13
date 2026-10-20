@@ -1,0 +1,30 @@
+{
+  "type": "bar",
+  "title": "CAC payback months by channel",
+  "data": [
+    {
+      "label": "Events",
+      "value": 20.5
+    },
+    {
+      "label": "Outbound Sales",
+      "value": 25.1
+    },
+    {
+      "label": "Paid Search",
+      "value": 7.35
+    },
+    {
+      "label": "Partner/Referral",
+      "value": 4.05
+    },
+    {
+      "label": "LinkedIn Ads",
+      "value": 11.6
+    },
+    {
+      "label": "Organic SEO",
+      "value": 2.2
+    }
+  ]
+}

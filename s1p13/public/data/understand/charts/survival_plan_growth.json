@@ -1,0 +1,238 @@
+{
+  "type": "line",
+  "title": "Survival: Growth",
+  "data": [
+    {
+      "label": "0",
+      "value": 1.0
+    },
+    {
+      "label": "1",
+      "value": 0.9945
+    },
+    {
+      "label": "2",
+      "value": 0.9778
+    },
+    {
+      "label": "3",
+      "value": 0.9605
+    },
+    {
+      "label": "4",
+      "value": 0.9483
+    },
+    {
+      "label": "5",
+      "value": 0.9421
+    },
+    {
+      "label": "6",
+      "value": 0.9421
+    },
+    {
+      "label": "7",
+      "value": 0.9353
+    },
+    {
+      "label": "8",
+      "value": 0.9353
+    },
+    {
+      "label": "9",
+      "value": 0.9285
+    },
+    {
+      "label": "10",
+      "value": 0.9073
+    },
+    {
+      "label": "11",
+      "value": 0.8929
+    },
+    {
+      "label": "12",
+      "value": 0.8316
+    },
+    {
+      "label": "13",
+      "value": 0.785
+    },
+    {
+      "label": "14",
+      "value": 0.7686
+    },
+    {
+      "label": "15",
+      "value": 0.7686
+    },
+    {
+      "label": "16",
+      "value": 0.7425
+    },
+    {
+      "label": "17",
+      "value": 0.7425
+    },
+    {
+      "label": "18",
+      "value": 0.7425
+    },
+    {
+      "label": "19",
+      "value": 0.7425
+    },
+    {
+      "label": "20",
+      "value": 0.7425
+    },
+    {
+      "label": "21",
+      "value": 0.7316
+    },
+    {
+      "label": "22",
+      "value": 0.7316
+    },
+    {
+      "label": "23",
+      "value": 0.7316
+    },
+    {
+      "label": "24",
+      "value": 0.7072
+    },
+    {
+      "label": "25",
+      "value": 0.6462
+    },
+    {
+      "label": "26",
+      "value": 0.6462
+    },
+    {
+      "label": "27",
+      "value": 0.6333
+    },
+    {
+      "label": "28",
+      "value": 0.6333
+    },
+    {
+      "label": "29",
+      "value": 0.6192
+    },
+    {
+      "label": "30",
+      "value": 0.6192
+    },
+    {
+      "label": "31",
+      "value": 0.602
+    },
+    {
+      "label": "32",
+      "value": 0.602
+    },
+    {
+      "label": "33",
+      "value": 0.602
+    },
+    {
+      "label": "34",
+      "value": 0.602
+    },
+    {
+      "label": "35",
+      "value": 0.602
+    },
+    {
+      "label": "36",
+      "value": 0.602
+    },
+    {
+      "label": "37",
+      "value": 0.5574
+    },
+    {
+      "label": "38",
+      "value": 0.5574
+    },
+    {
+      "label": "39",
+      "value": 0.5574
+    },
+    {
+      "label": "40",
+      "value": 0.5226
+    },
+    {
+      "label": "41",
+      "value": 0.5226
+    },
+    {
+      "label": "42",
+      "value": 0.5226
+    },
+    {
+      "label": "43",
+      "value": 0.5226
+    },
+    {
+      "label": "44",
+      "value": 0.5226
+    },
+    {
+      "label": "45",
+      "value": 0.5226
+    },
+    {
+      "label": "46",
+      "value": 0.5226
+    },
+    {
+      "label": "47",
+      "value": 0.5226
+    },
+    {
+      "label": "48",
+      "value": 0.5226
+    },
+    {
+      "label": "49",
+      "value": 0.5226
+    },
+    {
+      "label": "50",
+      "value": 0.5226
+    },
+    {
+      "label": "51",
+      "value": 0.5226
+    },
+    {
+      "label": "52",
+      "value": 0.5226
+    },
+    {
+      "label": "53",
+      "value": 0.5226
+    },
+    {
+      "label": "54",
+      "value": 0.5226
+    },
+    {
+      "label": "55",
+      "value": 0.5226
+    },
+    {
+      "label": "56",
+      "value": 0.5226
+    },
+    {
+      "label": "57",
+      "value": 0.5226
+    }
+  ]
+}

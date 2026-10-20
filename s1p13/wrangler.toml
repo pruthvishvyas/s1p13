@@ -1,0 +1,6 @@
+name = "s1p13"
+main = "worker/index.js"
+compatibility_date = "2026-10-14"
+
+[site]
+bucket = "./dist"

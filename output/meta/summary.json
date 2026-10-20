@@ -1,0 +1,20 @@
+{
+  "total_accounts": 500,
+  "active_accounts": 333,
+  "ARR": 5086076.04,
+  "MRR": 423839.67,
+  "logo_churn_pct": 33.4,
+  "revenue_churn_pct": 17.3311,
+  "GRR_pct": 82.1413,
+  "NRR_pct": 90.4583,
+  "ARPA": 1272.7918,
+  "avg_ltv_cac_pooled": 8.84,
+  "avg_payback_months": 15.2076,
+  "ARR_at_risk": 184183.9914,
+  "P1_count": 0,
+  "model_pr_auc": 0.993,
+  "model_roc_auc": 0.9963,
+  "scoring_source": "model",
+  "snapshot_note": "GRR/NRR are snapshot approximations",
+  "P1_P2_arr_at_risk": 34334.4428
+}

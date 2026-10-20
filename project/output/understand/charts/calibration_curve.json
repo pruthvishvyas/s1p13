@@ -1,0 +1,30 @@
+{
+  "type": "line",
+  "title": "Observed vs predicted churn",
+  "data": [
+    {
+      "label": "0.016",
+      "value": 0.0
+    },
+    {
+      "label": "0.017",
+      "value": 0.0
+    },
+    {
+      "label": "0.023",
+      "value": 0.0
+    },
+    {
+      "label": "0.106",
+      "value": 0.1
+    },
+    {
+      "label": "0.821",
+      "value": 0.9048
+    },
+    {
+      "label": "0.965",
+      "value": 1.0
+    }
+  ]
+}

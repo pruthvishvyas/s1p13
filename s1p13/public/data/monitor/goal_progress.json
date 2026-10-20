@@ -1,0 +1,35 @@
+{
+  "grr": {
+    "actual_pct": 82.1413,
+    "target_pct": 90,
+    "met": false
+  },
+  "nrr": {
+    "actual_pct": 90.4583,
+    "target_pct": 100,
+    "met": false
+  },
+  "mrr": {
+    "actual": 423839.67,
+    "target": null,
+    "met": null
+  },
+  "logo_churn_pct": {
+    "actual": 33.4
+  },
+  "high_risk_arr_share_pct": {
+    "actual": 0.613,
+    "limit": 15,
+    "met": true
+  },
+  "basis": "snapshot approximation (signup-to-as-of window, not annualized)",
+  "retention_detail": {
+    "starting_mrr": 468547.14,
+    "churned_mrr": 81204.58,
+    "contraction_mrr": 2472.03,
+    "expansion_mrr": 38969.14,
+    "grr_pct": 82.1413,
+    "nrr_pct": 90.4583,
+    "label": "snapshot approximation (signup-to-as-of window, not annualized)"
+  }
+}

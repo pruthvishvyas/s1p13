@@ -1,0 +1,682 @@
+{
+  "type": "heatmap",
+  "title": "Correlation heatmap",
+  "data": [
+    {
+      "label": "Product_Usage_Score | Product_Usage_Score",
+      "value": 1.0
+    },
+    {
+      "label": "Product_Usage_Score | Last_Login_Days_Ago",
+      "value": -0.315
+    },
+    {
+      "label": "Product_Usage_Score | Support_Tickets_90d",
+      "value": -0.3497
+    },
+    {
+      "label": "Product_Usage_Score | NPS_Rating",
+      "value": 0.6034
+    },
+    {
+      "label": "Product_Usage_Score | Avg_Days_to_Pay",
+      "value": 0.0844
+    },
+    {
+      "label": "Product_Usage_Score | Late_Invoices",
+      "value": 0.0572
+    },
+    {
+      "label": "Product_Usage_Score | Outstanding_Balance",
+      "value": 0.0658
+    },
+    {
+      "label": "Product_Usage_Score | Discount_pct",
+      "value": 0.1146
+    },
+    {
+      "label": "Product_Usage_Score | Seats",
+      "value": 0.1672
+    },
+    {
+      "label": "Product_Usage_Score | Initial_MRR",
+      "value": 0.1192
+    },
+    {
+      "label": "Product_Usage_Score | CAC",
+      "value": 0.1487
+    },
+    {
+      "label": "Product_Usage_Score | engagement_risk_score",
+      "value": -0.7017
+    },
+    {
+      "label": "Product_Usage_Score | is_churned",
+      "value": -0.3114
+    },
+    {
+      "label": "Last_Login_Days_Ago | Product_Usage_Score",
+      "value": -0.315
+    },
+    {
+      "label": "Last_Login_Days_Ago | Last_Login_Days_Ago",
+      "value": 1.0
+    },
+    {
+      "label": "Last_Login_Days_Ago | Support_Tickets_90d",
+      "value": 0.1052
+    },
+    {
+      "label": "Last_Login_Days_Ago | NPS_Rating",
+      "value": -0.2085
+    },
+    {
+      "label": "Last_Login_Days_Ago | Avg_Days_to_Pay",
+      "value": -0.1312
+    },
+    {
+      "label": "Last_Login_Days_Ago | Late_Invoices",
+      "value": -0.0933
+    },
+    {
+      "label": "Last_Login_Days_Ago | Outstanding_Balance",
+      "value": -0.1076
+    },
+    {
+      "label": "Last_Login_Days_Ago | Discount_pct",
+      "value": -0.1403
+    },
+    {
+      "label": "Last_Login_Days_Ago | Seats",
+      "value": -0.1875
+    },
+    {
+      "label": "Last_Login_Days_Ago | Initial_MRR",
+      "value": -0.1397
+    },
+    {
+      "label": "Last_Login_Days_Ago | CAC",
+      "value": -0.1845
+    },
+    {
+      "label": "Last_Login_Days_Ago | engagement_risk_score",
+      "value": 0.8198
+    },
+    {
+      "label": "Last_Login_Days_Ago | is_churned",
+      "value": 0.8719
+    },
+    {
+      "label": "Support_Tickets_90d | Product_Usage_Score",
+      "value": -0.3497
+    },
+    {
+      "label": "Support_Tickets_90d | Last_Login_Days_Ago",
+      "value": 0.1052
+    },
+    {
+      "label": "Support_Tickets_90d | Support_Tickets_90d",
+      "value": 1.0
+    },
+    {
+      "label": "Support_Tickets_90d | NPS_Rating",
+      "value": -0.3298
+    },
+    {
+      "label": "Support_Tickets_90d | Avg_Days_to_Pay",
+      "value": 0.2868
+    },
+    {
+      "label": "Support_Tickets_90d | Late_Invoices",
+      "value": 0.1225
+    },
+    {
+      "label": "Support_Tickets_90d | Outstanding_Balance",
+      "value": 0.1753
+    },
+    {
+      "label": "Support_Tickets_90d | Discount_pct",
+      "value": 0.1797
+    },
+    {
+      "label": "Support_Tickets_90d | Seats",
+      "value": 0.4019
+    },
+    {
+      "label": "Support_Tickets_90d | Initial_MRR",
+      "value": 0.465
+    },
+    {
+      "label": "Support_Tickets_90d | CAC",
+      "value": 0.2019
+    },
+    {
+      "label": "Support_Tickets_90d | engagement_risk_score",
+      "value": 0.4599
+    },
+    {
+      "label": "Support_Tickets_90d | is_churned",
+      "value": 0.0888
+    },
+    {
+      "label": "NPS_Rating | Product_Usage_Score",
+      "value": 0.6034
+    },
+    {
+      "label": "NPS_Rating | Last_Login_Days_Ago",
+      "value": -0.2085
+    },
+    {
+      "label": "NPS_Rating | Support_Tickets_90d",
+      "value": -0.3298
+    },
+    {
+      "label": "NPS_Rating | NPS_Rating",
+      "value": 1.0
+    },
+    {
+      "label": "NPS_Rating | Avg_Days_to_Pay",
+      "value": -0.014
+    },
+    {
+      "label": "NPS_Rating | Late_Invoices",
+      "value": 0.014
+    },
+    {
+      "label": "NPS_Rating | Outstanding_Balance",
+      "value": 0.0392
+    },
+    {
+      "label": "NPS_Rating | Discount_pct",
+      "value": 0.03
+    },
+    {
+      "label": "NPS_Rating | Seats",
+      "value": 0.0366
+    },
+    {
+      "label": "NPS_Rating | Initial_MRR",
+      "value": 0.0126
+    },
+    {
+      "label": "NPS_Rating | CAC",
+      "value": 0.1046
+    },
+    {
+      "label": "NPS_Rating | engagement_risk_score",
+      "value": -0.584
+    },
+    {
+      "label": "NPS_Rating | is_churned",
+      "value": -0.1962
+    },
+    {
+      "label": "Avg_Days_to_Pay | Product_Usage_Score",
+      "value": 0.0844
+    },
+    {
+      "label": "Avg_Days_to_Pay | Last_Login_Days_Ago",
+      "value": -0.1312
+    },
+    {
+      "label": "Avg_Days_to_Pay | Support_Tickets_90d",
+      "value": 0.2868
+    },
+    {
+      "label": "Avg_Days_to_Pay | NPS_Rating",
+      "value": -0.014
+    },
+    {
+      "label": "Avg_Days_to_Pay | Avg_Days_to_Pay",
+      "value": 1.0
+    },
+    {
+      "label": "Avg_Days_to_Pay | Late_Invoices",
+      "value": 0.3532
+    },
+    {
+      "label": "Avg_Days_to_Pay | Outstanding_Balance",
+      "value": 0.2201
+    },
+    {
+      "label": "Avg_Days_to_Pay | Discount_pct",
+      "value": 0.819
+    },
+    {
+      "label": "Avg_Days_to_Pay | Seats",
+      "value": 0.4415
+    },
+    {
+      "label": "Avg_Days_to_Pay | Initial_MRR",
+      "value": 0.4944
+    },
+    {
+      "label": "Avg_Days_to_Pay | CAC",
+      "value": 0.2757
+    },
+    {
+      "label": "Avg_Days_to_Pay | engagement_risk_score",
+      "value": 0.0909
+    },
+    {
+      "label": "Avg_Days_to_Pay | is_churned",
+      "value": -0.1403
+    },
+    {
+      "label": "Late_Invoices | Product_Usage_Score",
+      "value": 0.0572
+    },
+    {
+      "label": "Late_Invoices | Last_Login_Days_Ago",
+      "value": -0.0933
+    },
+    {
+      "label": "Late_Invoices | Support_Tickets_90d",
+      "value": 0.1225
+    },
+    {
+      "label": "Late_Invoices | NPS_Rating",
+      "value": 0.014
+    },
+    {
+      "label": "Late_Invoices | Avg_Days_to_Pay",
+      "value": 0.3532
+    },
+    {
+      "label": "Late_Invoices | Late_Invoices",
+      "value": 1.0
+    },
+    {
+      "label": "Late_Invoices | Outstanding_Balance",
+      "value": 0.0658
+    },
+    {
+      "label": "Late_Invoices | Discount_pct",
+      "value": 0.2398
+    },
+    {
+      "label": "Late_Invoices | Seats",
+      "value": 0.2347
+    },
+    {
+      "label": "Late_Invoices | Initial_MRR",
+      "value": 0.2529
+    },
+    {
+      "label": "Late_Invoices | CAC",
+      "value": 0.1158
+    },
+    {
+      "label": "Late_Invoices | engagement_risk_score",
+      "value": 0.0658
+    },
+    {
+      "label": "Late_Invoices | is_churned",
+      "value": -0.0983
+    },
+    {
+      "label": "Outstanding_Balance | Product_Usage_Score",
+      "value": 0.0658
+    },
+    {
+      "label": "Outstanding_Balance | Last_Login_Days_Ago",
+      "value": -0.1076
+    },
+    {
+      "label": "Outstanding_Balance | Support_Tickets_90d",
+      "value": 0.1753
+    },
+    {
+      "label": "Outstanding_Balance | NPS_Rating",
+      "value": 0.0392
+    },
+    {
+      "label": "Outstanding_Balance | Avg_Days_to_Pay",
+      "value": 0.2201
+    },
+    {
+      "label": "Outstanding_Balance | Late_Invoices",
+      "value": 0.0658
+    },
+    {
+      "label": "Outstanding_Balance | Outstanding_Balance",
+      "value": 1.0
+    },
+    {
+      "label": "Outstanding_Balance | Discount_pct",
+      "value": 0.2261
+    },
+    {
+      "label": "Outstanding_Balance | Seats",
+      "value": 0.2932
+    },
+    {
+      "label": "Outstanding_Balance | Initial_MRR",
+      "value": 0.3142
+    },
+    {
+      "label": "Outstanding_Balance | CAC",
+      "value": 0.1487
+    },
+    {
+      "label": "Outstanding_Balance | engagement_risk_score",
+      "value": -0.041
+    },
+    {
+      "label": "Outstanding_Balance | is_churned",
+      "value": -0.1222
+    },
+    {
+      "label": "Discount_pct | Product_Usage_Score",
+      "value": 0.1146
+    },
+    {
+      "label": "Discount_pct | Last_Login_Days_Ago",
+      "value": -0.1403
+    },
+    {
+      "label": "Discount_pct | Support_Tickets_90d",
+      "value": 0.1797
+    },
+    {
+      "label": "Discount_pct | NPS_Rating",
+      "value": 0.03
+    },
+    {
+      "label": "Discount_pct | Avg_Days_to_Pay",
+      "value": 0.819
+    },
+    {
+      "label": "Discount_pct | Late_Invoices",
+      "value": 0.2398
+    },
+    {
+      "label": "Discount_pct | Outstanding_Balance",
+      "value": 0.2261
+    },
+    {
+      "label": "Discount_pct | Discount_pct",
+      "value": 1.0
+    },
+    {
+      "label": "Discount_pct | Seats",
+      "value": 0.3651
+    },
+    {
+      "label": "Discount_pct | Initial_MRR",
+      "value": 0.3644
+    },
+    {
+      "label": "Discount_pct | CAC",
+      "value": 0.2782
+    },
+    {
+      "label": "Discount_pct | engagement_risk_score",
+      "value": 0.015
+    },
+    {
+      "label": "Discount_pct | is_churned",
+      "value": -0.1364
+    },
+    {
+      "label": "Seats | Product_Usage_Score",
+      "value": 0.1672
+    },
+    {
+      "label": "Seats | Last_Login_Days_Ago",
+      "value": -0.1875
+    },
+    {
+      "label": "Seats | Support_Tickets_90d",
+      "value": 0.4019
+    },
+    {
+      "label": "Seats | NPS_Rating",
+      "value": 0.0366
+    },
+    {
+      "label": "Seats | Avg_Days_to_Pay",
+      "value": 0.4415
+    },
+    {
+      "label": "Seats | Late_Invoices",
+      "value": 0.2347
+    },
+    {
+      "label": "Seats | Outstanding_Balance",
+      "value": 0.2932
+    },
+    {
+      "label": "Seats | Discount_pct",
+      "value": 0.3651
+    },
+    {
+      "label": "Seats | Seats",
+      "value": 1.0
+    },
+    {
+      "label": "Seats | Initial_MRR",
+      "value": 0.8372
+    },
+    {
+      "label": "Seats | CAC",
+      "value": 0.5675
+    },
+    {
+      "label": "Seats | engagement_risk_score",
+      "value": -0.0489
+    },
+    {
+      "label": "Seats | is_churned",
+      "value": -0.2279
+    },
+    {
+      "label": "Initial_MRR | Product_Usage_Score",
+      "value": 0.1192
+    },
+    {
+      "label": "Initial_MRR | Last_Login_Days_Ago",
+      "value": -0.1397
+    },
+    {
+      "label": "Initial_MRR | Support_Tickets_90d",
+      "value": 0.465
+    },
+    {
+      "label": "Initial_MRR | NPS_Rating",
+      "value": 0.0126
+    },
+    {
+      "label": "Initial_MRR | Avg_Days_to_Pay",
+      "value": 0.4944
+    },
+    {
+      "label": "Initial_MRR | Late_Invoices",
+      "value": 0.2529
+    },
+    {
+      "label": "Initial_MRR | Outstanding_Balance",
+      "value": 0.3142
+    },
+    {
+      "label": "Initial_MRR | Discount_pct",
+      "value": 0.3644
+    },
+    {
+      "label": "Initial_MRR | Seats",
+      "value": 0.8372
+    },
+    {
+      "label": "Initial_MRR | Initial_MRR",
+      "value": 1.0
+    },
+    {
+      "label": "Initial_MRR | CAC",
+      "value": 0.5041
+    },
+    {
+      "label": "Initial_MRR | engagement_risk_score",
+      "value": 0.0232
+    },
+    {
+      "label": "Initial_MRR | is_churned",
+      "value": -0.1701
+    },
+    {
+      "label": "CAC | Product_Usage_Score",
+      "value": 0.1487
+    },
+    {
+      "label": "CAC | Last_Login_Days_Ago",
+      "value": -0.1845
+    },
+    {
+      "label": "CAC | Support_Tickets_90d",
+      "value": 0.2019
+    },
+    {
+      "label": "CAC | NPS_Rating",
+      "value": 0.1046
+    },
+    {
+      "label": "CAC | Avg_Days_to_Pay",
+      "value": 0.2757
+    },
+    {
+      "label": "CAC | Late_Invoices",
+      "value": 0.1158
+    },
+    {
+      "label": "CAC | Outstanding_Balance",
+      "value": 0.1487
+    },
+    {
+      "label": "CAC | Discount_pct",
+      "value": 0.2782
+    },
+    {
+      "label": "CAC | Seats",
+      "value": 0.5675
+    },
+    {
+      "label": "CAC | Initial_MRR",
+      "value": 0.5041
+    },
+    {
+      "label": "CAC | CAC",
+      "value": 1.0
+    },
+    {
+      "label": "CAC | engagement_risk_score",
+      "value": -0.1189
+    },
+    {
+      "label": "CAC | is_churned",
+      "value": -0.2336
+    },
+    {
+      "label": "engagement_risk_score | Product_Usage_Score",
+      "value": -0.7017
+    },
+    {
+      "label": "engagement_risk_score | Last_Login_Days_Ago",
+      "value": 0.8198
+    },
+    {
+      "label": "engagement_risk_score | Support_Tickets_90d",
+      "value": 0.4599
+    },
+    {
+      "label": "engagement_risk_score | NPS_Rating",
+      "value": -0.584
+    },
+    {
+      "label": "engagement_risk_score | Avg_Days_to_Pay",
+      "value": 0.0909
+    },
+    {
+      "label": "engagement_risk_score | Late_Invoices",
+      "value": 0.0658
+    },
+    {
+      "label": "engagement_risk_score | Outstanding_Balance",
+      "value": -0.041
+    },
+    {
+      "label": "engagement_risk_score | Discount_pct",
+      "value": 0.015
+    },
+    {
+      "label": "engagement_risk_score | Seats",
+      "value": -0.0489
+    },
+    {
+      "label": "engagement_risk_score | Initial_MRR",
+      "value": 0.0232
+    },
+    {
+      "label": "engagement_risk_score | CAC",
+      "value": -0.1189
+    },
+    {
+      "label": "engagement_risk_score | engagement_risk_score",
+      "value": 1.0
+    },
+    {
+      "label": "engagement_risk_score | is_churned",
+      "value": 0.7405
+    },
+    {
+      "label": "is_churned | Product_Usage_Score",
+      "value": -0.3114
+    },
+    {
+      "label": "is_churned | Last_Login_Days_Ago",
+      "value": 0.8719
+    },
+    {
+      "label": "is_churned | Support_Tickets_90d",
+      "value": 0.0888
+    },
+    {
+      "label": "is_churned | NPS_Rating",
+      "value": -0.1962
+    },
+    {
+      "label": "is_churned | Avg_Days_to_Pay",
+      "value": -0.1403
+    },
+    {
+      "label": "is_churned | Late_Invoices",
+      "value": -0.0983
+    },
+    {
+      "label": "is_churned | Outstanding_Balance",
+      "value": -0.1222
+    },
+    {
+      "label": "is_churned | Discount_pct",
+      "value": -0.1364
+    },
+    {
+      "label": "is_churned | Seats",
+      "value": -0.2279
+    },
+    {
+      "label": "is_churned | Initial_MRR",
+      "value": -0.1701
+    },
+    {
+      "label": "is_churned | CAC",
+      "value": -0.2336
+    },
+    {
+      "label": "is_churned | engagement_risk_score",
+      "value": 0.7405
+    },
+    {
+      "label": "is_churned | is_churned",
+      "value": 1.0
+    }
+  ]
+}

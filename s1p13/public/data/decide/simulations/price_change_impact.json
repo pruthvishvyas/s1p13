@@ -1,0 +1,87 @@
+{
+  "variable": "price_change_pct",
+  "range": [
+    -10,
+    15,
+    5
+  ],
+  "assumptions": [
+    "Elasticity: data-derived (slope -0.0074 per discount pt, t=-3.07)",
+    "Relative change in each account 90-day churn probability = elasticity x price change %",
+    "Outputs compare expected retained MRR over 90 days vs. no change; applies to active accounts only"
+  ],
+  "results": [
+    {
+      "input": {
+        "price_change_pct": -10,
+        "elasticity_scenario": "data-derived",
+        "elasticity": 2.2101
+      },
+      "outputs": {
+        "delta_mrr": -37796.0476,
+        "delta_churned_accounts": -3.85,
+        "net_arr_change": -453552.5711
+      }
+    },
+    {
+      "input": {
+        "price_change_pct": -5,
+        "elasticity_scenario": "data-derived",
+        "elasticity": 2.2101
+      },
+      "outputs": {
+        "delta_mrr": -18813.2168,
+        "delta_churned_accounts": -1.925,
+        "net_arr_change": -225758.6013
+      }
+    },
+    {
+      "input": {
+        "price_change_pct": 0,
+        "elasticity_scenario": "data-derived",
+        "elasticity": 2.2101
+      },
+      "outputs": {
+        "delta_mrr": 0.0,
+        "delta_churned_accounts": 0.0,
+        "net_arr_change": 0.0
+      }
+    },
+    {
+      "input": {
+        "price_change_pct": 5,
+        "elasticity_scenario": "data-derived",
+        "elasticity": 2.2101
+      },
+      "outputs": {
+        "delta_mrr": 18643.6027,
+        "delta_churned_accounts": 1.925,
+        "net_arr_change": 223723.2327
+      }
+    },
+    {
+      "input": {
+        "price_change_pct": 10,
+        "elasticity_scenario": "data-derived",
+        "elasticity": 2.2101
+      },
+      "outputs": {
+        "delta_mrr": 37117.5914,
+        "delta_churned_accounts": 3.85,
+        "net_arr_change": 445411.0969
+      }
+    },
+    {
+      "input": {
+        "price_change_pct": 15,
+        "elasticity_scenario": "data-derived",
+        "elasticity": 2.2101
+      },
+      "outputs": {
+        "delta_mrr": 55423.8809,
+        "delta_churned_accounts": 5.7023,
+        "net_arr_change": 665086.5708
+      }
+    }
+  ]
+}

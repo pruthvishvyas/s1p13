@@ -1,0 +1,459 @@
+export const CONTRACT = {
+  "project": {
+    "name": "SaaS Revenue Retention",
+    "domain": "b2b_saas_subscription",
+    "client_id": "C:\\Users\\91635\\OneDrive\\VS STUDIO\\regular\\Portfoliio\\content\\s1p13",
+    "description": "Churn risk, unit economics and MRR forecast",
+    "slug": "s1p13"
+  },
+  "terminology": {
+    "revenue": "MRR / ARR",
+    "customer": "Account",
+    "product": "Plan",
+    "transaction": "Subscription"
+  },
+  "outcomes": {
+    "understand": {
+      "kpis": "understand/kpis.json",
+      "charts": "understand/charts/",
+      "segments": "understand/segments.json",
+      "anomalies": "understand/anomalies.json"
+    },
+    "decide": {
+      "insights": "decide/insights.json",
+      "recommendations": "decide/recommendations.json",
+      "simulations": "decide/simulations/",
+      "goals": "decide/goals.json"
+    },
+    "monitor": {
+      "forecast": "monitor/forecast.json",
+      "goal_progress": "monitor/goal_progress.json",
+      "alerts": "monitor/alerts.json"
+    }
+  },
+  "model": {
+    "type": "calibrated_classifier",
+    "pkl_file": "models/best_classifier.pkl",
+    "input_fields": [
+      {
+        "name": "Seats",
+        "type": "numeric",
+        "range": {
+          "min": 2.0,
+          "max": 53.0
+        }
+      },
+      {
+        "name": "List_Price_per_Seat",
+        "type": "numeric",
+        "range": {
+          "min": 12.0,
+          "max": 99.0
+        }
+      },
+      {
+        "name": "Discount_pct",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 32.1
+        }
+      },
+      {
+        "name": "Initial_MRR",
+        "type": "numeric",
+        "range": {
+          "min": 17.5,
+          "max": 10824.05
+        }
+      },
+      {
+        "name": "Expansion_pct",
+        "type": "numeric",
+        "range": {
+          "min": -23.8,
+          "max": 66.1
+        }
+      },
+      {
+        "name": "CAC",
+        "type": "numeric",
+        "range": {
+          "min": 108.0,
+          "max": 5539.75
+        }
+      },
+      {
+        "name": "Gross_Margin_pct",
+        "type": "numeric",
+        "range": {
+          "min": 74.4,
+          "max": 89.6
+        }
+      },
+      {
+        "name": "CAC_Payback_Months",
+        "type": "numeric",
+        "range": {
+          "min": 0.2,
+          "max": 103.0
+        }
+      },
+      {
+        "name": "Product_Usage_Score",
+        "type": "numeric",
+        "range": {
+          "min": 3.0,
+          "max": 100.0
+        }
+      },
+      {
+        "name": "Support_Tickets_90d",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 7.5
+        }
+      },
+      {
+        "name": "NPS_Rating",
+        "type": "numeric",
+        "range": {
+          "min": 2.0,
+          "max": 10.0
+        }
+      },
+      {
+        "name": "Avg_Days_to_Pay",
+        "type": "numeric",
+        "range": {
+          "min": 0.2,
+          "max": 67.9625
+        }
+      },
+      {
+        "name": "Late_Invoices",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 4.0
+        }
+      },
+      {
+        "name": "Outstanding_Balance",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 40137.0
+        }
+      },
+      {
+        "name": "mrr_per_seat",
+        "type": "numeric",
+        "range": {
+          "min": 8.746,
+          "max": 204.2274
+        }
+      },
+      {
+        "name": "usage_per_seat",
+        "type": "numeric",
+        "range": {
+          "min": 0.1905,
+          "max": 50.0
+        }
+      },
+      {
+        "name": "tickets_per_seat",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 3.0
+        }
+      },
+      {
+        "name": "balance_to_mrr",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 11.8777
+        }
+      },
+      {
+        "name": "margin_per_seat",
+        "type": "numeric",
+        "range": {
+          "min": 6.7956,
+          "max": 172.1637
+        }
+      },
+      {
+        "name": "engagement_risk_score",
+        "type": "numeric",
+        "range": {
+          "min": 1.0833,
+          "max": 68.4278
+        }
+      },
+      {
+        "name": "expansion_flag",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "contraction_flag",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "inactive_flag",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "low_usage_flag",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "high_ticket_flag",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "detractor_flag",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "promoter_flag",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "late_payer_flag",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "annual_flag",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "payback_ok",
+        "type": "numeric",
+        "range": {
+          "min": 0.0,
+          "max": 1.0
+        }
+      },
+      {
+        "name": "Health_Score",
+        "type": "numeric",
+        "range": {
+          "min": 16.0,
+          "max": 100.0
+        }
+      },
+      {
+        "name": "Plan",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "Enterprise",
+            "Growth",
+            "Pro",
+            "Starter"
+          ]
+        }
+      },
+      {
+        "name": "Billing_Cycle",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "Annual",
+            "Monthly"
+          ]
+        }
+      },
+      {
+        "name": "Industry",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "E-commerce",
+            "Education",
+            "Fintech",
+            "Healthcare",
+            "Logistics",
+            "Manufacturing",
+            "Media",
+            "Professional Services"
+          ]
+        }
+      },
+      {
+        "name": "Region",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "APAC",
+            "Europe",
+            "LATAM",
+            "Middle East",
+            "North America"
+          ]
+        }
+      },
+      {
+        "name": "Company_Size",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "1-10",
+            "11-50",
+            "200+",
+            "51-200"
+          ]
+        }
+      },
+      {
+        "name": "Acquisition_Channel",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "Events",
+            "LinkedIn Ads",
+            "Organic SEO",
+            "Outbound Sales",
+            "Paid Search",
+            "Partner/Referral"
+          ]
+        }
+      },
+      {
+        "name": "discount_depth_band",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "0",
+            "1-10",
+            "11-20",
+            "20+"
+          ]
+        }
+      },
+      {
+        "name": "login_recency_band",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "0-7",
+            "31-60",
+            "60+",
+            "8-30"
+          ]
+        }
+      },
+      {
+        "name": "plan_x_cycle",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "Enterprise | Annual",
+            "Enterprise | Monthly",
+            "Growth | Annual",
+            "Growth | Monthly",
+            "Pro | Annual",
+            "Pro | Monthly",
+            "Starter | Annual",
+            "Starter | Monthly"
+          ]
+        }
+      },
+      {
+        "name": "size_x_channel",
+        "type": "categorical",
+        "range": {
+          "values": [
+            "1-10 | Organic SEO",
+            "1-10 | Outbound Sales",
+            "1-10 | Paid Search",
+            "1-10 | Partner/Referral",
+            "11-50 | Organic SEO",
+            "11-50 | Outbound Sales",
+            "11-50 | Paid Search",
+            "11-50 | Partner/Referral",
+            "Other"
+          ]
+        }
+      }
+    ],
+    "output_label": "churn_probability",
+    "horizon": "90 days"
+  },
+  "source": {
+    "type": "csv"
+  },
+  "frontend": {
+    "framework": "vanilla HTML/JS",
+    "deploy_target": "cloudflare_pages"
+  },
+  "saas_ready": true
+};
+
+export const dataPath = (rel) => (rel ? '/data/' + String(rel).replace(/^\/+/, '') : null);
+
+const o = CONTRACT.outcomes || {};
+const u = o.understand || {};
+const d = o.decide || {};
+const m = o.monitor || {};
+
+export const PATHS = {
+  kpis: dataPath(u.kpis),
+  charts: dataPath(u.charts),
+  segments: dataPath(u.segments),
+  anomalies: dataPath(u.anomalies),
+  insights: dataPath(d.insights),
+  recommendations: dataPath(d.recommendations),
+  simulations: dataPath(d.simulations),
+  goals: dataPath(d.goals),
+  forecast: dataPath(m.forecast),
+  goalProgress: dataPath(m.goal_progress),
+  alerts: dataPath(m.alerts),
+  summary: '/data/meta/summary.json',
+  terminology: '/data/meta/terminology.json',
+  runLog: '/data/meta/run_log.json'
+};
+
+export const MODEL = CONTRACT.model || {};
+export const PROJECT = CONTRACT.project || {};

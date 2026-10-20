@@ -1,0 +1,36 @@
+[
+  {
+    "severity": "medium",
+    "type": "overdue_invoices",
+    "message": "12 accounts with late invoices and an open balance (total 181957)",
+    "accounts": [
+      "C0228",
+      "C0145",
+      "C0287",
+      "C0447",
+      "C0108",
+      "C0468",
+      "C0033",
+      "C0141",
+      "C0162",
+      "C0022"
+    ]
+  },
+  {
+    "severity": "medium",
+    "type": "low_health",
+    "message": "53 active accounts have health score below 50",
+    "accounts": [
+      "C0167",
+      "C0175",
+      "C0011",
+      "C0429",
+      "C0251",
+      "C0369",
+      "C0388",
+      "C0451",
+      "C0145",
+      "C0324"
+    ]
+  }
+]

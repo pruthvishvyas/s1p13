@@ -1,0 +1,34 @@
+{
+  "k": 3,
+  "silhouette": 0.2957,
+  "fallback_k3": false,
+  "segments": [
+    {
+      "segment": "At-Risk",
+      "n": 60,
+      "arr": 49193.64,
+      "avg_churn_prob": 0.1568,
+      "avg_engagement_risk": 26.5244,
+      "arr_share_pct": 0.9672,
+      "traits": "Seats: 3.0 vs typical 11.0 | usage per seat: 15.2 vs typical 5.4 | mrr per seat: 11.9 vs typical 27.7"
+    },
+    {
+      "segment": "Champions",
+      "n": 148,
+      "arr": 489921.48,
+      "avg_churn_prob": 0.0159,
+      "avg_engagement_risk": 15.0897,
+      "arr_share_pct": 9.6326,
+      "traits": "Last Login Days Ago: 1.0 vs typical 2.0 | usage per seat: 8.0 vs typical 5.4 | Seats: 8.0 vs typical 11.0"
+    },
+    {
+      "segment": "Stable",
+      "n": 125,
+      "arr": 4546960.92,
+      "avg_churn_prob": 0.0452,
+      "avg_engagement_risk": 24.6204,
+      "arr_share_pct": 89.4002,
+      "traits": "Seats: 33.0 vs typical 11.0 | usage per seat: 1.8 vs typical 5.4 | mrr per seat: 53.2 vs typical 27.7"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "model_family": "random_forest",
+  "tuned": true,
+  "calibration": "sigmoid",
+  "metrics_holdout": {
+    "pr_auc": 0.993,
+    "roc_auc": 0.9963,
+    "recall_at_top20": 0.5952,
+    "precision_at_top20": 1.0,
+    "brier": 0.0234,
+    "brier_base_rate": 0.2231,
+    "base_rate_test": 0.336,
+    "calibration_slope": 1.8639,
+    "calibration_method": "sigmoid"
+  },
+  "cv_5x2": {
+    "logreg": {
+      "ap_mean": 0.9844,
+      "ap_std": 0.0102,
+      "auc_mean": 0.9878,
+      "auc_std": 0.0124
+    },
+    "random_forest": {
+      "ap_mean": 0.9882,
+      "ap_std": 0.0048,
+      "auc_mean": 0.9936,
+      "auc_std": 0.0027
+    },
+    "grad_boost": {
+      "ap_mean": 0.9866,
+      "ap_std": 0.0045,
+      "auc_mean": 0.9925,
+      "auc_std": 0.0027
+    },
+    "dummy_prior": {
+      "ap_mean": 0.3333,
+      "ap_std": 0.0,
+      "auc_mean": 0.5,
+      "auc_std": 0.0
+    }
+  },
+  "shuffled_target_auc": 0.4778,
+  "single_feature_checks": {
+    "auc_health_score": 0.6639,
+    "auc_churn_risk": 0.6682,
+    "churn_risk_is_bucket_of_health": false,
+    "top_single_feature_auc": {
+      "Last_Login_Days_Ago": 1.0,
+      "engagement_risk_score": 0.9403,
+      "inactive_flag": 0.9311,
+      "List_Price_per_Seat": 0.6867,
+      "Product_Usage_Score": 0.6828,
+      "Initial_MRR": 0.682,
+      "margin_per_seat": 0.6811,
+      "mrr_per_seat": 0.6792,
+      "Gross_Margin_pct": 0.6779,
+      "tickets_per_seat": 0.6671
+    }
+  },
+  "excluded_features": {
+    "Status": "is the target",
+    "Churn_Date": "exists only for churned accounts",
+    "Churn_Reason": "exists only for churned accounts",
+    "Months_Active": "depends on how long the account lived",
+    "Lifetime_Revenue": "depends on account lifetime",
+    "Lifetime_Gross_Profit": "depends on account lifetime",
+    "LTV_to_CAC_Realized": "depends on account lifetime",
+    "ltv_cac_ok": "derived from LTV_to_CAC_Realized",
+    "tenure_months": "survival analysis only",
+    "Signup_Date": "proxy of tenure/exposure time",
+    "Current_MRR": "exit-time snapshot (used only to size ARR at risk)",
+    "ARR_Current": "exit-time snapshot (used only to size ARR at risk)",
+    "Churn_Risk": "categorized duplicate of Health_Score (baseline comparison only)",
+    "Last_Login_Days_Ago": "single-feature AUC=1.000 > 0.95 (LEAKAGE)",
+    "usage_missing": "constant / empty",
+    "login_missing": "constant / empty",
+    "nps_missing": "constant / empty"
+  },
+  "sensitivity_static_only": {
+    "roc_auc": 0.6968,
+    "pr_auc": 0.516
+  },
+  "acceptance": {
+    "pr_auc_ge_2x_base": true,
+    "roc_auc_ge_0_80": true,
+    "brier_below_base": true,
+    "recall_top20_ge_50pct": true,
+    "calibration_slope_0_8_1_2": false
+  },
+  "primary_scoring": "model",
+  "churn_threshold": 0.2528,
+  "threshold_rule": "F2-optimal on out-of-fold training probabilities",
+  "horizon": "90 days (assumption; data is a snapshot so scores rank relative risk)",
+  "n_train": 375,
+  "n_test": 125,
+  "features_num": [
+    "Seats",
+    "List_Price_per_Seat",
+    "Discount_pct",
+    "Initial_MRR",
+    "Expansion_pct",
+    "CAC",
+    "Gross_Margin_pct",
+    "CAC_Payback_Months",
+    "Product_Usage_Score",
+    "Support_Tickets_90d",
+    "NPS_Rating",
+    "Avg_Days_to_Pay",
+    "Late_Invoices",
+    "Outstanding_Balance",
+    "mrr_per_seat",
+    "usage_per_seat",
+    "tickets_per_seat",
+    "balance_to_mrr",
+    "margin_per_seat",
+    "engagement_risk_score",
+    "expansion_flag",
+    "contraction_flag",
+    "inactive_flag",
+    "low_usage_flag",
+    "high_ticket_flag",
+    "detractor_flag",
+    "promoter_flag",
+    "late_payer_flag",
+    "annual_flag",
+    "payback_ok",
+    "Health_Score"
+  ],
+  "features_cat": [
+    "Plan",
+    "Billing_Cycle",
+    "Industry",
+    "Region",
+    "Company_Size",
+    "Acquisition_Channel",
+    "discount_depth_band",
+    "login_recency_band",
+    "plan_x_cycle",
+    "size_x_channel"
+  ],
+  "rule_baseline": {
+    "precision": 0.4938,
+    "recall": 0.9521,
+    "flagged_share": 0.644
+  },
+  "base_rate": 0.334
+}

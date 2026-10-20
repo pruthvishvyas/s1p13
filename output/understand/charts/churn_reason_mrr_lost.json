@@ -1,0 +1,30 @@
+{
+  "type": "bar",
+  "title": "MRR lost by churn reason",
+  "data": [
+    {
+      "label": "Poor support experience",
+      "value": 36158.64
+    },
+    {
+      "label": "Low adoption / usage",
+      "value": 21108.92
+    },
+    {
+      "label": "Switched to competitor",
+      "value": 12246.59
+    },
+    {
+      "label": "Missing features",
+      "value": 7556.15
+    },
+    {
+      "label": "Price too high",
+      "value": 6854.13
+    },
+    {
+      "label": "Business closed",
+      "value": 3031.14
+    }
+  ]
+}

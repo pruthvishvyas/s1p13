@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "title": "Margin per seat by discount band",
+  "data": [
+    {
+      "label": "0",
+      "value": 22.1492
+    },
+    {
+      "label": "1-10",
+      "value": 21.5453
+    },
+    {
+      "label": "11-20",
+      "value": 28.4336
+    },
+    {
+      "label": "20+",
+      "value": 50.6041
+    }
+  ]
+}

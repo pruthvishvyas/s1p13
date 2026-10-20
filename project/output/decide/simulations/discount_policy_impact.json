@@ -1,0 +1,67 @@
+{
+  "variable": "discount_cap_pct",
+  "range": [
+    10,
+    25,
+    5
+  ],
+  "assumptions": [
+    "Added churn = churn-rate gap between the capped band and the current band (only increases counted; bands with n<15 use overall rate)",
+    "Discount reduction raises MRR by seats x list price x discount points removed",
+    "Margin gain uses average gross margin"
+  ],
+  "results": [
+    {
+      "input": {
+        "discount_cap_pct": 10
+      },
+      "outputs": {
+        "accounts_affected": 163,
+        "mrr_gained_if_no_churn": 25449.5801,
+        "margin_gained_monthly": 20778.7169,
+        "added_expected_churned_accounts": 21.0511,
+        "net_expected_mrr_change": -25704.8558,
+        "net_arr_change": -308458.2698
+      }
+    },
+    {
+      "input": {
+        "discount_cap_pct": 15
+      },
+      "outputs": {
+        "accounts_affected": 128,
+        "mrr_gained_if_no_churn": 14937.7063,
+        "margin_gained_monthly": 12196.1293,
+        "added_expected_churned_accounts": 4.5486,
+        "net_expected_mrr_change": -908.1126,
+        "net_arr_change": -10897.3507
+      }
+    },
+    {
+      "input": {
+        "discount_cap_pct": 20
+      },
+      "outputs": {
+        "accounts_affected": 73,
+        "mrr_gained_if_no_churn": 6382.2685,
+        "margin_gained_monthly": 5210.9052,
+        "added_expected_churned_accounts": 4.5486,
+        "net_expected_mrr_change": -8591.0185,
+        "net_arr_change": -103092.2225
+      }
+    },
+    {
+      "input": {
+        "discount_cap_pct": 25
+      },
+      "outputs": {
+        "accounts_affected": 20,
+        "mrr_gained_if_no_churn": 1804.4962,
+        "margin_gained_monthly": 1473.3098,
+        "added_expected_churned_accounts": 0.0,
+        "net_expected_mrr_change": 1678.2946,
+        "net_arr_change": 20139.5358
+      }
+    }
+  ]
+}

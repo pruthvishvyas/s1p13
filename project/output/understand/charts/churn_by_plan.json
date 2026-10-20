@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "title": "Churn rate by plan",
+  "data": [
+    {
+      "label": "Enterprise",
+      "value": 12.1212
+    },
+    {
+      "label": "Pro",
+      "value": 18.4874
+    },
+    {
+      "label": "Growth",
+      "value": 27.6243
+    },
+    {
+      "label": "Starter",
+      "value": 54.491
+    }
+  ]
+}

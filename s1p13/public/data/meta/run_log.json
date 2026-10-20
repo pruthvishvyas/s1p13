@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-10-14T10:53:32",
+  "rows": 500,
+  "source_type": "csv",
+  "model_metrics": {
+    "pr_auc": 0.993,
+    "roc_auc": 0.9963,
+    "recall_at_top20": 0.5952,
+    "precision_at_top20": 1.0,
+    "brier": 0.0234,
+    "brier_base_rate": 0.2231,
+    "base_rate_test": 0.336,
+    "calibration_slope": 1.8639,
+    "calibration_method": "sigmoid"
+  },
+  "scoring_source": "model",
+  "errors": []
+}

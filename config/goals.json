@@ -1,0 +1,35 @@
+{
+  "mrr_target": {
+    "value": null,
+    "unit": "monthly",
+    "client_sets": true
+  },
+  "grr_target": {
+    "value": 90,
+    "unit": "percent",
+    "description": "Gross revenue retention target (annual)"
+  },
+  "nrr_target": {
+    "value": 100,
+    "unit": "percent",
+    "description": "Net revenue retention target (annual)"
+  },
+  "alert_mrr_drop_pct": {
+    "value": 5,
+    "unit": "percent",
+    "description": "Alert if forecast MRR falls this % in a month"
+  },
+  "at_risk_arr_share": {
+    "value": 15,
+    "unit": "percent",
+    "description": "Alert if High-risk ARR exceeds this share of ARR"
+  },
+  "inactive_days": {
+    "value": 30,
+    "unit": "days"
+  },
+  "forecast_horizon": {
+    "value": 6,
+    "unit": "months"
+  }
+}

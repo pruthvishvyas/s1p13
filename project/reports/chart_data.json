@@ -1,0 +1,2668 @@
+{
+  "mrr_waterfall": {
+    "type": "bar",
+    "title": "MRR waterfall",
+    "data": [
+      {
+        "label": "New MRR",
+        "value": 468547.14
+      },
+      {
+        "label": "Expansion",
+        "value": 38969.14
+      },
+      {
+        "label": "Contraction",
+        "value": -2472.03
+      },
+      {
+        "label": "Churn",
+        "value": -81204.58
+      },
+      {
+        "label": "Active MRR now",
+        "value": 423839.67
+      }
+    ]
+  },
+  "cohort_retained_mrr_pct": {
+    "type": "bar",
+    "title": "Retained MRR % by signup month",
+    "data": [
+      {
+        "label": "2022-01",
+        "value": 98.3085
+      },
+      {
+        "label": "2022-03",
+        "value": 89.7091
+      },
+      {
+        "label": "2022-05",
+        "value": 98.7793
+      },
+      {
+        "label": "2022-06",
+        "value": 156.6413
+      },
+      {
+        "label": "2022-07",
+        "value": 148.1101
+      },
+      {
+        "label": "2022-08",
+        "value": 5.589
+      },
+      {
+        "label": "2022-09",
+        "value": 1.7235
+      },
+      {
+        "label": "2022-10",
+        "value": 36.9168
+      },
+      {
+        "label": "2022-11",
+        "value": 86.8867
+      },
+      {
+        "label": "2022-12",
+        "value": 117.0251
+      },
+      {
+        "label": "2023-01",
+        "value": 2.0886
+      },
+      {
+        "label": "2023-02",
+        "value": 126.893
+      },
+      {
+        "label": "2023-03",
+        "value": 34.1895
+      },
+      {
+        "label": "2023-04",
+        "value": 62.4408
+      },
+      {
+        "label": "2023-05",
+        "value": 96.0126
+      },
+      {
+        "label": "2023-06",
+        "value": 105.012
+      },
+      {
+        "label": "2023-07",
+        "value": 78.3144
+      },
+      {
+        "label": "2023-08",
+        "value": 51.0194
+      },
+      {
+        "label": "2023-09",
+        "value": 90.4915
+      },
+      {
+        "label": "2023-10",
+        "value": 92.1532
+      },
+      {
+        "label": "2023-11",
+        "value": 5.143
+      },
+      {
+        "label": "2023-12",
+        "value": 89.8799
+      },
+      {
+        "label": "2024-01",
+        "value": 123.8584
+      },
+      {
+        "label": "2024-02",
+        "value": 76.6546
+      },
+      {
+        "label": "2024-03",
+        "value": 95.6188
+      },
+      {
+        "label": "2024-04",
+        "value": 107.1687
+      },
+      {
+        "label": "2024-05",
+        "value": 70.1768
+      },
+      {
+        "label": "2024-06",
+        "value": 20.8399
+      },
+      {
+        "label": "2024-07",
+        "value": 101.8833
+      },
+      {
+        "label": "2024-08",
+        "value": 76.2672
+      },
+      {
+        "label": "2024-09",
+        "value": 66.5135
+      },
+      {
+        "label": "2024-10",
+        "value": 132.144
+      },
+      {
+        "label": "2024-11",
+        "value": 126.703
+      },
+      {
+        "label": "2024-12",
+        "value": 108.6463
+      },
+      {
+        "label": "2025-01",
+        "value": 102.8172
+      },
+      {
+        "label": "2025-02",
+        "value": 78.7184
+      },
+      {
+        "label": "2025-03",
+        "value": 113.0626
+      },
+      {
+        "label": "2025-04",
+        "value": 59.0025
+      },
+      {
+        "label": "2025-05",
+        "value": 100.3133
+      },
+      {
+        "label": "2025-06",
+        "value": 90.618
+      },
+      {
+        "label": "2025-07",
+        "value": 109.3892
+      },
+      {
+        "label": "2025-08",
+        "value": 73.9828
+      },
+      {
+        "label": "2025-09",
+        "value": 107.3748
+      },
+      {
+        "label": "2025-10",
+        "value": 104.4401
+      },
+      {
+        "label": "2025-11",
+        "value": 100.1041
+      },
+      {
+        "label": "2025-12",
+        "value": 103.7824
+      },
+      {
+        "label": "2026-01",
+        "value": 94.5568
+      },
+      {
+        "label": "2026-02",
+        "value": 103.8473
+      },
+      {
+        "label": "2026-03",
+        "value": 101.765
+      },
+      {
+        "label": "2026-04",
+        "value": 104.2084
+      },
+      {
+        "label": "2026-05",
+        "value": 101.5341
+      },
+      {
+        "label": "2026-06",
+        "value": 100.899
+      },
+      {
+        "label": "2026-07",
+        "value": 100.2141
+      },
+      {
+        "label": "2026-08",
+        "value": 100.3381
+      }
+    ]
+  },
+  "churn_by_plan": {
+    "type": "bar",
+    "title": "Churn rate by plan",
+    "data": [
+      {
+        "label": "Enterprise",
+        "value": 12.1212
+      },
+      {
+        "label": "Pro",
+        "value": 18.4874
+      },
+      {
+        "label": "Growth",
+        "value": 27.6243
+      },
+      {
+        "label": "Starter",
+        "value": 54.491
+      }
+    ]
+  },
+  "churn_by_industry": {
+    "type": "bar",
+    "title": "Churn rate by industry",
+    "data": [
+      {
+        "label": "Healthcare",
+        "value": 26.6667
+      },
+      {
+        "label": "Logistics",
+        "value": 28.8136
+      },
+      {
+        "label": "Media",
+        "value": 29.7297
+      },
+      {
+        "label": "Manufacturing",
+        "value": 31.4286
+      },
+      {
+        "label": "Education",
+        "value": 32.6087
+      },
+      {
+        "label": "E-commerce",
+        "value": 35.6322
+      },
+      {
+        "label": "Professional Services",
+        "value": 36.8421
+      },
+      {
+        "label": "Fintech",
+        "value": 41.5385
+      }
+    ]
+  },
+  "churn_by_region": {
+    "type": "bar",
+    "title": "Churn rate by region",
+    "data": [
+      {
+        "label": "North America",
+        "value": 26.1682
+      },
+      {
+        "label": "Middle East",
+        "value": 33.3333
+      },
+      {
+        "label": "Europe",
+        "value": 39.8496
+      },
+      {
+        "label": "APAC",
+        "value": 40.7767
+      }
+    ]
+  },
+  "churn_reason_mrr_lost": {
+    "type": "bar",
+    "title": "MRR lost by churn reason",
+    "data": [
+      {
+        "label": "Poor support experience",
+        "value": 36158.64
+      },
+      {
+        "label": "Low adoption / usage",
+        "value": 21108.92
+      },
+      {
+        "label": "Switched to competitor",
+        "value": 12246.59
+      },
+      {
+        "label": "Missing features",
+        "value": 7556.15
+      },
+      {
+        "label": "Price too high",
+        "value": 6854.13
+      },
+      {
+        "label": "Business closed",
+        "value": 3031.14
+      }
+    ]
+  },
+  "channel_ltv_cac": {
+    "type": "bar",
+    "title": "LTV:CAC by channel",
+    "data": [
+      {
+        "label": "Events",
+        "value": 3.3161
+      },
+      {
+        "label": "Outbound Sales",
+        "value": 4.1241
+      },
+      {
+        "label": "Paid Search",
+        "value": 8.3631
+      },
+      {
+        "label": "Partner/Referral",
+        "value": 9.8126
+      },
+      {
+        "label": "LinkedIn Ads",
+        "value": 10.3666
+      },
+      {
+        "label": "Organic SEO",
+        "value": 29.7976
+      }
+    ]
+  },
+  "channel_payback": {
+    "type": "bar",
+    "title": "CAC payback months by channel",
+    "data": [
+      {
+        "label": "Events",
+        "value": 20.5
+      },
+      {
+        "label": "Outbound Sales",
+        "value": 25.1
+      },
+      {
+        "label": "Paid Search",
+        "value": 7.35
+      },
+      {
+        "label": "Partner/Referral",
+        "value": 4.05
+      },
+      {
+        "label": "LinkedIn Ads",
+        "value": 11.6
+      },
+      {
+        "label": "Organic SEO",
+        "value": 2.2
+      }
+    ]
+  },
+  "discount_band_churn_pct": {
+    "type": "bar",
+    "title": "Churn rate by discount band",
+    "data": [
+      {
+        "label": "0",
+        "value": 42.0
+      },
+      {
+        "label": "1-10",
+        "value": 38.6957
+      },
+      {
+        "label": "11-20",
+        "value": 28.5714
+      },
+      {
+        "label": "20+",
+        "value": 22.3404
+      }
+    ]
+  },
+  "discount_band_margin_per_seat": {
+    "type": "bar",
+    "title": "Margin per seat by discount band",
+    "data": [
+      {
+        "label": "0",
+        "value": 22.1492
+      },
+      {
+        "label": "1-10",
+        "value": 21.5453
+      },
+      {
+        "label": "11-20",
+        "value": 28.4336
+      },
+      {
+        "label": "20+",
+        "value": 50.6041
+      }
+    ]
+  },
+  "churn_by_login_recency": {
+    "type": "bar",
+    "title": "Churn rate by login recency (%)",
+    "data": [
+      {
+        "label": "0-7",
+        "value": 0.0
+      },
+      {
+        "label": "8-30",
+        "value": 40.3509
+      },
+      {
+        "label": "31-60",
+        "value": 100.0
+      },
+      {
+        "label": "60+",
+        "value": 100.0
+      }
+    ]
+  },
+  "survival_all": {
+    "type": "line",
+    "title": "Survival (all accounts)",
+    "data": [
+      {
+        "label": "0",
+        "value": 1.0
+      },
+      {
+        "label": "1",
+        "value": 0.994
+      },
+      {
+        "label": "2",
+        "value": 0.9637
+      },
+      {
+        "label": "3",
+        "value": 0.9324
+      },
+      {
+        "label": "4",
+        "value": 0.9109
+      },
+      {
+        "label": "5",
+        "value": 0.902
+      },
+      {
+        "label": "6",
+        "value": 0.8975
+      },
+      {
+        "label": "7",
+        "value": 0.881
+      },
+      {
+        "label": "8",
+        "value": 0.8689
+      },
+      {
+        "label": "9",
+        "value": 0.854
+      },
+      {
+        "label": "10",
+        "value": 0.836
+      },
+      {
+        "label": "11",
+        "value": 0.8254
+      },
+      {
+        "label": "12",
+        "value": 0.7613
+      },
+      {
+        "label": "13",
+        "value": 0.7248
+      },
+      {
+        "label": "14",
+        "value": 0.707
+      },
+      {
+        "label": "15",
+        "value": 0.707
+      },
+      {
+        "label": "16",
+        "value": 0.6911
+      },
+      {
+        "label": "17",
+        "value": 0.6846
+      },
+      {
+        "label": "18",
+        "value": 0.6778
+      },
+      {
+        "label": "19",
+        "value": 0.6778
+      },
+      {
+        "label": "20",
+        "value": 0.6739
+      },
+      {
+        "label": "21",
+        "value": 0.6583
+      },
+      {
+        "label": "22",
+        "value": 0.6583
+      },
+      {
+        "label": "23",
+        "value": 0.6583
+      },
+      {
+        "label": "24",
+        "value": 0.6175
+      },
+      {
+        "label": "25",
+        "value": 0.5763
+      },
+      {
+        "label": "26",
+        "value": 0.5713
+      },
+      {
+        "label": "27",
+        "value": 0.5663
+      },
+      {
+        "label": "28",
+        "value": 0.555
+      },
+      {
+        "label": "29",
+        "value": 0.5493
+      },
+      {
+        "label": "30",
+        "value": 0.5493
+      },
+      {
+        "label": "31",
+        "value": 0.5426
+      },
+      {
+        "label": "32",
+        "value": 0.5426
+      },
+      {
+        "label": "33",
+        "value": 0.5426
+      },
+      {
+        "label": "34",
+        "value": 0.5337
+      },
+      {
+        "label": "35",
+        "value": 0.5337
+      },
+      {
+        "label": "36",
+        "value": 0.5337
+      },
+      {
+        "label": "37",
+        "value": 0.4843
+      },
+      {
+        "label": "38",
+        "value": 0.4843
+      },
+      {
+        "label": "39",
+        "value": 0.4843
+      },
+      {
+        "label": "40",
+        "value": 0.4697
+      },
+      {
+        "label": "41",
+        "value": 0.4697
+      },
+      {
+        "label": "42",
+        "value": 0.4697
+      },
+      {
+        "label": "43",
+        "value": 0.4697
+      },
+      {
+        "label": "44",
+        "value": 0.4473
+      },
+      {
+        "label": "45",
+        "value": 0.4473
+      },
+      {
+        "label": "46",
+        "value": 0.421
+      },
+      {
+        "label": "47",
+        "value": 0.421
+      },
+      {
+        "label": "48",
+        "value": 0.421
+      },
+      {
+        "label": "49",
+        "value": 0.421
+      },
+      {
+        "label": "50",
+        "value": 0.421
+      },
+      {
+        "label": "51",
+        "value": 0.421
+      },
+      {
+        "label": "52",
+        "value": 0.421
+      },
+      {
+        "label": "53",
+        "value": 0.421
+      },
+      {
+        "label": "54",
+        "value": 0.421
+      },
+      {
+        "label": "55",
+        "value": 0.421
+      },
+      {
+        "label": "56",
+        "value": 0.421
+      },
+      {
+        "label": "57",
+        "value": 0.421
+      }
+    ]
+  },
+  "survival_plan_enterprise": {
+    "type": "line",
+    "title": "Survival: Enterprise",
+    "data": [
+      {
+        "label": "0",
+        "value": 1.0
+      },
+      {
+        "label": "1",
+        "value": 1.0
+      },
+      {
+        "label": "2",
+        "value": 1.0
+      },
+      {
+        "label": "3",
+        "value": 1.0
+      },
+      {
+        "label": "4",
+        "value": 1.0
+      },
+      {
+        "label": "5",
+        "value": 1.0
+      },
+      {
+        "label": "6",
+        "value": 1.0
+      },
+      {
+        "label": "7",
+        "value": 1.0
+      },
+      {
+        "label": "8",
+        "value": 1.0
+      },
+      {
+        "label": "9",
+        "value": 1.0
+      },
+      {
+        "label": "10",
+        "value": 1.0
+      },
+      {
+        "label": "11",
+        "value": 1.0
+      },
+      {
+        "label": "12",
+        "value": 0.9583
+      },
+      {
+        "label": "13",
+        "value": 0.9583
+      },
+      {
+        "label": "14",
+        "value": 0.9148
+      },
+      {
+        "label": "15",
+        "value": 0.9148
+      },
+      {
+        "label": "16",
+        "value": 0.9148
+      },
+      {
+        "label": "17",
+        "value": 0.9148
+      },
+      {
+        "label": "18",
+        "value": 0.9148
+      },
+      {
+        "label": "19",
+        "value": 0.9148
+      },
+      {
+        "label": "20",
+        "value": 0.9148
+      },
+      {
+        "label": "21",
+        "value": 0.9148
+      },
+      {
+        "label": "22",
+        "value": 0.9148
+      },
+      {
+        "label": "23",
+        "value": 0.9148
+      },
+      {
+        "label": "24",
+        "value": 0.9148
+      },
+      {
+        "label": "25",
+        "value": 0.8444
+      },
+      {
+        "label": "26",
+        "value": 0.8444
+      },
+      {
+        "label": "27",
+        "value": 0.8444
+      },
+      {
+        "label": "28",
+        "value": 0.8444
+      },
+      {
+        "label": "29",
+        "value": 0.8444
+      },
+      {
+        "label": "30",
+        "value": 0.8444
+      },
+      {
+        "label": "31",
+        "value": 0.8444
+      },
+      {
+        "label": "32",
+        "value": 0.8444
+      },
+      {
+        "label": "33",
+        "value": 0.8444
+      },
+      {
+        "label": "34",
+        "value": 0.8444
+      },
+      {
+        "label": "35",
+        "value": 0.8444
+      },
+      {
+        "label": "36",
+        "value": 0.8444
+      },
+      {
+        "label": "37",
+        "value": 0.6333
+      },
+      {
+        "label": "38",
+        "value": 0.6333
+      },
+      {
+        "label": "39",
+        "value": 0.6333
+      },
+      {
+        "label": "40",
+        "value": 0.6333
+      },
+      {
+        "label": "41",
+        "value": 0.6333
+      },
+      {
+        "label": "42",
+        "value": 0.6333
+      },
+      {
+        "label": "43",
+        "value": 0.6333
+      },
+      {
+        "label": "44",
+        "value": 0.6333
+      },
+      {
+        "label": "45",
+        "value": 0.6333
+      },
+      {
+        "label": "46",
+        "value": 0.6333
+      },
+      {
+        "label": "47",
+        "value": 0.6333
+      },
+      {
+        "label": "48",
+        "value": 0.6333
+      },
+      {
+        "label": "49",
+        "value": 0.6333
+      },
+      {
+        "label": "50",
+        "value": 0.6333
+      },
+      {
+        "label": "51",
+        "value": 0.6333
+      },
+      {
+        "label": "52",
+        "value": 0.6333
+      },
+      {
+        "label": "53",
+        "value": 0.6333
+      },
+      {
+        "label": "54",
+        "value": 0.6333
+      },
+      {
+        "label": "55",
+        "value": 0.6333
+      },
+      {
+        "label": "56",
+        "value": 0.6333
+      },
+      {
+        "label": "57",
+        "value": 0.6333
+      }
+    ]
+  },
+  "survival_plan_growth": {
+    "type": "line",
+    "title": "Survival: Growth",
+    "data": [
+      {
+        "label": "0",
+        "value": 1.0
+      },
+      {
+        "label": "1",
+        "value": 0.9945
+      },
+      {
+        "label": "2",
+        "value": 0.9778
+      },
+      {
+        "label": "3",
+        "value": 0.9605
+      },
+      {
+        "label": "4",
+        "value": 0.9483
+      },
+      {
+        "label": "5",
+        "value": 0.9421
+      },
+      {
+        "label": "6",
+        "value": 0.9421
+      },
+      {
+        "label": "7",
+        "value": 0.9353
+      },
+      {
+        "label": "8",
+        "value": 0.9353
+      },
+      {
+        "label": "9",
+        "value": 0.9285
+      },
+      {
+        "label": "10",
+        "value": 0.9073
+      },
+      {
+        "label": "11",
+        "value": 0.8929
+      },
+      {
+        "label": "12",
+        "value": 0.8316
+      },
+      {
+        "label": "13",
+        "value": 0.785
+      },
+      {
+        "label": "14",
+        "value": 0.7686
+      },
+      {
+        "label": "15",
+        "value": 0.7686
+      },
+      {
+        "label": "16",
+        "value": 0.7425
+      },
+      {
+        "label": "17",
+        "value": 0.7425
+      },
+      {
+        "label": "18",
+        "value": 0.7425
+      },
+      {
+        "label": "19",
+        "value": 0.7425
+      },
+      {
+        "label": "20",
+        "value": 0.7425
+      },
+      {
+        "label": "21",
+        "value": 0.7316
+      },
+      {
+        "label": "22",
+        "value": 0.7316
+      },
+      {
+        "label": "23",
+        "value": 0.7316
+      },
+      {
+        "label": "24",
+        "value": 0.7072
+      },
+      {
+        "label": "25",
+        "value": 0.6462
+      },
+      {
+        "label": "26",
+        "value": 0.6462
+      },
+      {
+        "label": "27",
+        "value": 0.6333
+      },
+      {
+        "label": "28",
+        "value": 0.6333
+      },
+      {
+        "label": "29",
+        "value": 0.6192
+      },
+      {
+        "label": "30",
+        "value": 0.6192
+      },
+      {
+        "label": "31",
+        "value": 0.602
+      },
+      {
+        "label": "32",
+        "value": 0.602
+      },
+      {
+        "label": "33",
+        "value": 0.602
+      },
+      {
+        "label": "34",
+        "value": 0.602
+      },
+      {
+        "label": "35",
+        "value": 0.602
+      },
+      {
+        "label": "36",
+        "value": 0.602
+      },
+      {
+        "label": "37",
+        "value": 0.5574
+      },
+      {
+        "label": "38",
+        "value": 0.5574
+      },
+      {
+        "label": "39",
+        "value": 0.5574
+      },
+      {
+        "label": "40",
+        "value": 0.5226
+      },
+      {
+        "label": "41",
+        "value": 0.5226
+      },
+      {
+        "label": "42",
+        "value": 0.5226
+      },
+      {
+        "label": "43",
+        "value": 0.5226
+      },
+      {
+        "label": "44",
+        "value": 0.5226
+      },
+      {
+        "label": "45",
+        "value": 0.5226
+      },
+      {
+        "label": "46",
+        "value": 0.5226
+      },
+      {
+        "label": "47",
+        "value": 0.5226
+      },
+      {
+        "label": "48",
+        "value": 0.5226
+      },
+      {
+        "label": "49",
+        "value": 0.5226
+      },
+      {
+        "label": "50",
+        "value": 0.5226
+      },
+      {
+        "label": "51",
+        "value": 0.5226
+      },
+      {
+        "label": "52",
+        "value": 0.5226
+      },
+      {
+        "label": "53",
+        "value": 0.5226
+      },
+      {
+        "label": "54",
+        "value": 0.5226
+      },
+      {
+        "label": "55",
+        "value": 0.5226
+      },
+      {
+        "label": "56",
+        "value": 0.5226
+      },
+      {
+        "label": "57",
+        "value": 0.5226
+      }
+    ]
+  },
+  "survival_plan_pro": {
+    "type": "line",
+    "title": "Survival: Pro",
+    "data": [
+      {
+        "label": "0",
+        "value": 1.0
+      },
+      {
+        "label": "1",
+        "value": 1.0
+      },
+      {
+        "label": "2",
+        "value": 0.9916
+      },
+      {
+        "label": "3",
+        "value": 0.9916
+      },
+      {
+        "label": "4",
+        "value": 0.9827
+      },
+      {
+        "label": "5",
+        "value": 0.9827
+      },
+      {
+        "label": "6",
+        "value": 0.9827
+      },
+      {
+        "label": "7",
+        "value": 0.9732
+      },
+      {
+        "label": "8",
+        "value": 0.9732
+      },
+      {
+        "label": "9",
+        "value": 0.9732
+      },
+      {
+        "label": "10",
+        "value": 0.9628
+      },
+      {
+        "label": "11",
+        "value": 0.9628
+      },
+      {
+        "label": "12",
+        "value": 0.9164
+      },
+      {
+        "label": "13",
+        "value": 0.881
+      },
+      {
+        "label": "14",
+        "value": 0.8681
+      },
+      {
+        "label": "15",
+        "value": 0.8681
+      },
+      {
+        "label": "16",
+        "value": 0.8681
+      },
+      {
+        "label": "17",
+        "value": 0.8413
+      },
+      {
+        "label": "18",
+        "value": 0.8413
+      },
+      {
+        "label": "19",
+        "value": 0.8413
+      },
+      {
+        "label": "20",
+        "value": 0.8413
+      },
+      {
+        "label": "21",
+        "value": 0.8413
+      },
+      {
+        "label": "22",
+        "value": 0.8413
+      },
+      {
+        "label": "23",
+        "value": 0.8413
+      },
+      {
+        "label": "24",
+        "value": 0.7673
+      },
+      {
+        "label": "25",
+        "value": 0.7299
+      },
+      {
+        "label": "26",
+        "value": 0.7299
+      },
+      {
+        "label": "27",
+        "value": 0.7299
+      },
+      {
+        "label": "28",
+        "value": 0.7299
+      },
+      {
+        "label": "29",
+        "value": 0.7299
+      },
+      {
+        "label": "30",
+        "value": 0.7299
+      },
+      {
+        "label": "31",
+        "value": 0.7299
+      },
+      {
+        "label": "32",
+        "value": 0.7299
+      },
+      {
+        "label": "33",
+        "value": 0.7299
+      },
+      {
+        "label": "34",
+        "value": 0.7299
+      },
+      {
+        "label": "35",
+        "value": 0.7299
+      },
+      {
+        "label": "36",
+        "value": 0.7299
+      },
+      {
+        "label": "37",
+        "value": 0.6777
+      },
+      {
+        "label": "38",
+        "value": 0.6777
+      },
+      {
+        "label": "39",
+        "value": 0.6777
+      },
+      {
+        "label": "40",
+        "value": 0.6777
+      },
+      {
+        "label": "41",
+        "value": 0.6777
+      },
+      {
+        "label": "42",
+        "value": 0.6777
+      },
+      {
+        "label": "43",
+        "value": 0.6777
+      },
+      {
+        "label": "44",
+        "value": 0.6777
+      },
+      {
+        "label": "45",
+        "value": 0.6777
+      },
+      {
+        "label": "46",
+        "value": 0.5809
+      },
+      {
+        "label": "47",
+        "value": 0.5809
+      },
+      {
+        "label": "48",
+        "value": 0.5809
+      },
+      {
+        "label": "49",
+        "value": 0.5809
+      },
+      {
+        "label": "50",
+        "value": 0.5809
+      },
+      {
+        "label": "51",
+        "value": 0.5809
+      },
+      {
+        "label": "52",
+        "value": 0.5809
+      },
+      {
+        "label": "53",
+        "value": 0.5809
+      },
+      {
+        "label": "54",
+        "value": 0.5809
+      },
+      {
+        "label": "55",
+        "value": 0.5809
+      },
+      {
+        "label": "56",
+        "value": 0.5809
+      },
+      {
+        "label": "57",
+        "value": 0.5809
+      }
+    ]
+  },
+  "survival_plan_starter": {
+    "type": "line",
+    "title": "Survival: Starter",
+    "data": [
+      {
+        "label": "0",
+        "value": 1.0
+      },
+      {
+        "label": "1",
+        "value": 0.988
+      },
+      {
+        "label": "2",
+        "value": 0.9209
+      },
+      {
+        "label": "3",
+        "value": 0.845
+      },
+      {
+        "label": "4",
+        "value": 0.8005
+      },
+      {
+        "label": "5",
+        "value": 0.781
+      },
+      {
+        "label": "6",
+        "value": 0.7678
+      },
+      {
+        "label": "7",
+        "value": 0.7331
+      },
+      {
+        "label": "8",
+        "value": 0.6972
+      },
+      {
+        "label": "9",
+        "value": 0.6602
+      },
+      {
+        "label": "10",
+        "value": 0.636
+      },
+      {
+        "label": "11",
+        "value": 0.6196
+      },
+      {
+        "label": "12",
+        "value": 0.5347
+      },
+      {
+        "label": "13",
+        "value": 0.5008
+      },
+      {
+        "label": "14",
+        "value": 0.4835
+      },
+      {
+        "label": "15",
+        "value": 0.4835
+      },
+      {
+        "label": "16",
+        "value": 0.4638
+      },
+      {
+        "label": "17",
+        "value": 0.4638
+      },
+      {
+        "label": "18",
+        "value": 0.4417
+      },
+      {
+        "label": "19",
+        "value": 0.4417
+      },
+      {
+        "label": "20",
+        "value": 0.429
+      },
+      {
+        "label": "21",
+        "value": 0.3903
+      },
+      {
+        "label": "22",
+        "value": 0.3903
+      },
+      {
+        "label": "23",
+        "value": 0.3903
+      },
+      {
+        "label": "24",
+        "value": 0.3463
+      },
+      {
+        "label": "25",
+        "value": 0.3312
+      },
+      {
+        "label": "26",
+        "value": 0.3155
+      },
+      {
+        "label": "27",
+        "value": 0.3155
+      },
+      {
+        "label": "28",
+        "value": 0.2783
+      },
+      {
+        "label": "29",
+        "value": 0.2783
+      },
+      {
+        "label": "30",
+        "value": 0.2783
+      },
+      {
+        "label": "31",
+        "value": 0.2783
+      },
+      {
+        "label": "32",
+        "value": 0.2783
+      },
+      {
+        "label": "33",
+        "value": 0.2783
+      },
+      {
+        "label": "34",
+        "value": 0.253
+      },
+      {
+        "label": "35",
+        "value": 0.253
+      },
+      {
+        "label": "36",
+        "value": 0.253
+      },
+      {
+        "label": "37",
+        "value": 0.2249
+      },
+      {
+        "label": "38",
+        "value": 0.2249
+      },
+      {
+        "label": "39",
+        "value": 0.2249
+      },
+      {
+        "label": "40",
+        "value": 0.2249
+      },
+      {
+        "label": "41",
+        "value": 0.2249
+      },
+      {
+        "label": "42",
+        "value": 0.2249
+      },
+      {
+        "label": "43",
+        "value": 0.2249
+      },
+      {
+        "label": "44",
+        "value": 0.1499
+      },
+      {
+        "label": "45",
+        "value": 0.1499
+      },
+      {
+        "label": "46",
+        "value": 0.1499
+      },
+      {
+        "label": "47",
+        "value": 0.1499
+      },
+      {
+        "label": "48",
+        "value": 0.1499
+      },
+      {
+        "label": "49",
+        "value": 0.1499
+      },
+      {
+        "label": "50",
+        "value": 0.1499
+      },
+      {
+        "label": "51",
+        "value": 0.1499
+      },
+      {
+        "label": "52",
+        "value": 0.1499
+      },
+      {
+        "label": "53",
+        "value": 0.1499
+      },
+      {
+        "label": "54",
+        "value": 0.1499
+      },
+      {
+        "label": "55",
+        "value": 0.1499
+      },
+      {
+        "label": "56",
+        "value": 0.1499
+      },
+      {
+        "label": "57",
+        "value": 0.1499
+      }
+    ]
+  },
+  "correlation_heatmap": {
+    "type": "heatmap",
+    "title": "Correlation heatmap",
+    "data": [
+      {
+        "label": "Product_Usage_Score | Product_Usage_Score",
+        "value": 1.0
+      },
+      {
+        "label": "Product_Usage_Score | Last_Login_Days_Ago",
+        "value": -0.315
+      },
+      {
+        "label": "Product_Usage_Score | Support_Tickets_90d",
+        "value": -0.3497
+      },
+      {
+        "label": "Product_Usage_Score | NPS_Rating",
+        "value": 0.6034
+      },
+      {
+        "label": "Product_Usage_Score | Avg_Days_to_Pay",
+        "value": 0.0844
+      },
+      {
+        "label": "Product_Usage_Score | Late_Invoices",
+        "value": 0.0572
+      },
+      {
+        "label": "Product_Usage_Score | Outstanding_Balance",
+        "value": 0.0658
+      },
+      {
+        "label": "Product_Usage_Score | Discount_pct",
+        "value": 0.1146
+      },
+      {
+        "label": "Product_Usage_Score | Seats",
+        "value": 0.1672
+      },
+      {
+        "label": "Product_Usage_Score | Initial_MRR",
+        "value": 0.1192
+      },
+      {
+        "label": "Product_Usage_Score | CAC",
+        "value": 0.1487
+      },
+      {
+        "label": "Product_Usage_Score | engagement_risk_score",
+        "value": -0.7017
+      },
+      {
+        "label": "Product_Usage_Score | is_churned",
+        "value": -0.3114
+      },
+      {
+        "label": "Last_Login_Days_Ago | Product_Usage_Score",
+        "value": -0.315
+      },
+      {
+        "label": "Last_Login_Days_Ago | Last_Login_Days_Ago",
+        "value": 1.0
+      },
+      {
+        "label": "Last_Login_Days_Ago | Support_Tickets_90d",
+        "value": 0.1052
+      },
+      {
+        "label": "Last_Login_Days_Ago | NPS_Rating",
+        "value": -0.2085
+      },
+      {
+        "label": "Last_Login_Days_Ago | Avg_Days_to_Pay",
+        "value": -0.1312
+      },
+      {
+        "label": "Last_Login_Days_Ago | Late_Invoices",
+        "value": -0.0933
+      },
+      {
+        "label": "Last_Login_Days_Ago | Outstanding_Balance",
+        "value": -0.1076
+      },
+      {
+        "label": "Last_Login_Days_Ago | Discount_pct",
+        "value": -0.1403
+      },
+      {
+        "label": "Last_Login_Days_Ago | Seats",
+        "value": -0.1875
+      },
+      {
+        "label": "Last_Login_Days_Ago | Initial_MRR",
+        "value": -0.1397
+      },
+      {
+        "label": "Last_Login_Days_Ago | CAC",
+        "value": -0.1845
+      },
+      {
+        "label": "Last_Login_Days_Ago | engagement_risk_score",
+        "value": 0.8198
+      },
+      {
+        "label": "Last_Login_Days_Ago | is_churned",
+        "value": 0.8719
+      },
+      {
+        "label": "Support_Tickets_90d | Product_Usage_Score",
+        "value": -0.3497
+      },
+      {
+        "label": "Support_Tickets_90d | Last_Login_Days_Ago",
+        "value": 0.1052
+      },
+      {
+        "label": "Support_Tickets_90d | Support_Tickets_90d",
+        "value": 1.0
+      },
+      {
+        "label": "Support_Tickets_90d | NPS_Rating",
+        "value": -0.3298
+      },
+      {
+        "label": "Support_Tickets_90d | Avg_Days_to_Pay",
+        "value": 0.2868
+      },
+      {
+        "label": "Support_Tickets_90d | Late_Invoices",
+        "value": 0.1225
+      },
+      {
+        "label": "Support_Tickets_90d | Outstanding_Balance",
+        "value": 0.1753
+      },
+      {
+        "label": "Support_Tickets_90d | Discount_pct",
+        "value": 0.1797
+      },
+      {
+        "label": "Support_Tickets_90d | Seats",
+        "value": 0.4019
+      },
+      {
+        "label": "Support_Tickets_90d | Initial_MRR",
+        "value": 0.465
+      },
+      {
+        "label": "Support_Tickets_90d | CAC",
+        "value": 0.2019
+      },
+      {
+        "label": "Support_Tickets_90d | engagement_risk_score",
+        "value": 0.4599
+      },
+      {
+        "label": "Support_Tickets_90d | is_churned",
+        "value": 0.0888
+      },
+      {
+        "label": "NPS_Rating | Product_Usage_Score",
+        "value": 0.6034
+      },
+      {
+        "label": "NPS_Rating | Last_Login_Days_Ago",
+        "value": -0.2085
+      },
+      {
+        "label": "NPS_Rating | Support_Tickets_90d",
+        "value": -0.3298
+      },
+      {
+        "label": "NPS_Rating | NPS_Rating",
+        "value": 1.0
+      },
+      {
+        "label": "NPS_Rating | Avg_Days_to_Pay",
+        "value": -0.014
+      },
+      {
+        "label": "NPS_Rating | Late_Invoices",
+        "value": 0.014
+      },
+      {
+        "label": "NPS_Rating | Outstanding_Balance",
+        "value": 0.0392
+      },
+      {
+        "label": "NPS_Rating | Discount_pct",
+        "value": 0.03
+      },
+      {
+        "label": "NPS_Rating | Seats",
+        "value": 0.0366
+      },
+      {
+        "label": "NPS_Rating | Initial_MRR",
+        "value": 0.0126
+      },
+      {
+        "label": "NPS_Rating | CAC",
+        "value": 0.1046
+      },
+      {
+        "label": "NPS_Rating | engagement_risk_score",
+        "value": -0.584
+      },
+      {
+        "label": "NPS_Rating | is_churned",
+        "value": -0.1962
+      },
+      {
+        "label": "Avg_Days_to_Pay | Product_Usage_Score",
+        "value": 0.0844
+      },
+      {
+        "label": "Avg_Days_to_Pay | Last_Login_Days_Ago",
+        "value": -0.1312
+      },
+      {
+        "label": "Avg_Days_to_Pay | Support_Tickets_90d",
+        "value": 0.2868
+      },
+      {
+        "label": "Avg_Days_to_Pay | NPS_Rating",
+        "value": -0.014
+      },
+      {
+        "label": "Avg_Days_to_Pay | Avg_Days_to_Pay",
+        "value": 1.0
+      },
+      {
+        "label": "Avg_Days_to_Pay | Late_Invoices",
+        "value": 0.3532
+      },
+      {
+        "label": "Avg_Days_to_Pay | Outstanding_Balance",
+        "value": 0.2201
+      },
+      {
+        "label": "Avg_Days_to_Pay | Discount_pct",
+        "value": 0.819
+      },
+      {
+        "label": "Avg_Days_to_Pay | Seats",
+        "value": 0.4415
+      },
+      {
+        "label": "Avg_Days_to_Pay | Initial_MRR",
+        "value": 0.4944
+      },
+      {
+        "label": "Avg_Days_to_Pay | CAC",
+        "value": 0.2757
+      },
+      {
+        "label": "Avg_Days_to_Pay | engagement_risk_score",
+        "value": 0.0909
+      },
+      {
+        "label": "Avg_Days_to_Pay | is_churned",
+        "value": -0.1403
+      },
+      {
+        "label": "Late_Invoices | Product_Usage_Score",
+        "value": 0.0572
+      },
+      {
+        "label": "Late_Invoices | Last_Login_Days_Ago",
+        "value": -0.0933
+      },
+      {
+        "label": "Late_Invoices | Support_Tickets_90d",
+        "value": 0.1225
+      },
+      {
+        "label": "Late_Invoices | NPS_Rating",
+        "value": 0.014
+      },
+      {
+        "label": "Late_Invoices | Avg_Days_to_Pay",
+        "value": 0.3532
+      },
+      {
+        "label": "Late_Invoices | Late_Invoices",
+        "value": 1.0
+      },
+      {
+        "label": "Late_Invoices | Outstanding_Balance",
+        "value": 0.0658
+      },
+      {
+        "label": "Late_Invoices | Discount_pct",
+        "value": 0.2398
+      },
+      {
+        "label": "Late_Invoices | Seats",
+        "value": 0.2347
+      },
+      {
+        "label": "Late_Invoices | Initial_MRR",
+        "value": 0.2529
+      },
+      {
+        "label": "Late_Invoices | CAC",
+        "value": 0.1158
+      },
+      {
+        "label": "Late_Invoices | engagement_risk_score",
+        "value": 0.0658
+      },
+      {
+        "label": "Late_Invoices | is_churned",
+        "value": -0.0983
+      },
+      {
+        "label": "Outstanding_Balance | Product_Usage_Score",
+        "value": 0.0658
+      },
+      {
+        "label": "Outstanding_Balance | Last_Login_Days_Ago",
+        "value": -0.1076
+      },
+      {
+        "label": "Outstanding_Balance | Support_Tickets_90d",
+        "value": 0.1753
+      },
+      {
+        "label": "Outstanding_Balance | NPS_Rating",
+        "value": 0.0392
+      },
+      {
+        "label": "Outstanding_Balance | Avg_Days_to_Pay",
+        "value": 0.2201
+      },
+      {
+        "label": "Outstanding_Balance | Late_Invoices",
+        "value": 0.0658
+      },
+      {
+        "label": "Outstanding_Balance | Outstanding_Balance",
+        "value": 1.0
+      },
+      {
+        "label": "Outstanding_Balance | Discount_pct",
+        "value": 0.2261
+      },
+      {
+        "label": "Outstanding_Balance | Seats",
+        "value": 0.2932
+      },
+      {
+        "label": "Outstanding_Balance | Initial_MRR",
+        "value": 0.3142
+      },
+      {
+        "label": "Outstanding_Balance | CAC",
+        "value": 0.1487
+      },
+      {
+        "label": "Outstanding_Balance | engagement_risk_score",
+        "value": -0.041
+      },
+      {
+        "label": "Outstanding_Balance | is_churned",
+        "value": -0.1222
+      },
+      {
+        "label": "Discount_pct | Product_Usage_Score",
+        "value": 0.1146
+      },
+      {
+        "label": "Discount_pct | Last_Login_Days_Ago",
+        "value": -0.1403
+      },
+      {
+        "label": "Discount_pct | Support_Tickets_90d",
+        "value": 0.1797
+      },
+      {
+        "label": "Discount_pct | NPS_Rating",
+        "value": 0.03
+      },
+      {
+        "label": "Discount_pct | Avg_Days_to_Pay",
+        "value": 0.819
+      },
+      {
+        "label": "Discount_pct | Late_Invoices",
+        "value": 0.2398
+      },
+      {
+        "label": "Discount_pct | Outstanding_Balance",
+        "value": 0.2261
+      },
+      {
+        "label": "Discount_pct | Discount_pct",
+        "value": 1.0
+      },
+      {
+        "label": "Discount_pct | Seats",
+        "value": 0.3651
+      },
+      {
+        "label": "Discount_pct | Initial_MRR",
+        "value": 0.3644
+      },
+      {
+        "label": "Discount_pct | CAC",
+        "value": 0.2782
+      },
+      {
+        "label": "Discount_pct | engagement_risk_score",
+        "value": 0.015
+      },
+      {
+        "label": "Discount_pct | is_churned",
+        "value": -0.1364
+      },
+      {
+        "label": "Seats | Product_Usage_Score",
+        "value": 0.1672
+      },
+      {
+        "label": "Seats | Last_Login_Days_Ago",
+        "value": -0.1875
+      },
+      {
+        "label": "Seats | Support_Tickets_90d",
+        "value": 0.4019
+      },
+      {
+        "label": "Seats | NPS_Rating",
+        "value": 0.0366
+      },
+      {
+        "label": "Seats | Avg_Days_to_Pay",
+        "value": 0.4415
+      },
+      {
+        "label": "Seats | Late_Invoices",
+        "value": 0.2347
+      },
+      {
+        "label": "Seats | Outstanding_Balance",
+        "value": 0.2932
+      },
+      {
+        "label": "Seats | Discount_pct",
+        "value": 0.3651
+      },
+      {
+        "label": "Seats | Seats",
+        "value": 1.0
+      },
+      {
+        "label": "Seats | Initial_MRR",
+        "value": 0.8372
+      },
+      {
+        "label": "Seats | CAC",
+        "value": 0.5675
+      },
+      {
+        "label": "Seats | engagement_risk_score",
+        "value": -0.0489
+      },
+      {
+        "label": "Seats | is_churned",
+        "value": -0.2279
+      },
+      {
+        "label": "Initial_MRR | Product_Usage_Score",
+        "value": 0.1192
+      },
+      {
+        "label": "Initial_MRR | Last_Login_Days_Ago",
+        "value": -0.1397
+      },
+      {
+        "label": "Initial_MRR | Support_Tickets_90d",
+        "value": 0.465
+      },
+      {
+        "label": "Initial_MRR | NPS_Rating",
+        "value": 0.0126
+      },
+      {
+        "label": "Initial_MRR | Avg_Days_to_Pay",
+        "value": 0.4944
+      },
+      {
+        "label": "Initial_MRR | Late_Invoices",
+        "value": 0.2529
+      },
+      {
+        "label": "Initial_MRR | Outstanding_Balance",
+        "value": 0.3142
+      },
+      {
+        "label": "Initial_MRR | Discount_pct",
+        "value": 0.3644
+      },
+      {
+        "label": "Initial_MRR | Seats",
+        "value": 0.8372
+      },
+      {
+        "label": "Initial_MRR | Initial_MRR",
+        "value": 1.0
+      },
+      {
+        "label": "Initial_MRR | CAC",
+        "value": 0.5041
+      },
+      {
+        "label": "Initial_MRR | engagement_risk_score",
+        "value": 0.0232
+      },
+      {
+        "label": "Initial_MRR | is_churned",
+        "value": -0.1701
+      },
+      {
+        "label": "CAC | Product_Usage_Score",
+        "value": 0.1487
+      },
+      {
+        "label": "CAC | Last_Login_Days_Ago",
+        "value": -0.1845
+      },
+      {
+        "label": "CAC | Support_Tickets_90d",
+        "value": 0.2019
+      },
+      {
+        "label": "CAC | NPS_Rating",
+        "value": 0.1046
+      },
+      {
+        "label": "CAC | Avg_Days_to_Pay",
+        "value": 0.2757
+      },
+      {
+        "label": "CAC | Late_Invoices",
+        "value": 0.1158
+      },
+      {
+        "label": "CAC | Outstanding_Balance",
+        "value": 0.1487
+      },
+      {
+        "label": "CAC | Discount_pct",
+        "value": 0.2782
+      },
+      {
+        "label": "CAC | Seats",
+        "value": 0.5675
+      },
+      {
+        "label": "CAC | Initial_MRR",
+        "value": 0.5041
+      },
+      {
+        "label": "CAC | CAC",
+        "value": 1.0
+      },
+      {
+        "label": "CAC | engagement_risk_score",
+        "value": -0.1189
+      },
+      {
+        "label": "CAC | is_churned",
+        "value": -0.2336
+      },
+      {
+        "label": "engagement_risk_score | Product_Usage_Score",
+        "value": -0.7017
+      },
+      {
+        "label": "engagement_risk_score | Last_Login_Days_Ago",
+        "value": 0.8198
+      },
+      {
+        "label": "engagement_risk_score | Support_Tickets_90d",
+        "value": 0.4599
+      },
+      {
+        "label": "engagement_risk_score | NPS_Rating",
+        "value": -0.584
+      },
+      {
+        "label": "engagement_risk_score | Avg_Days_to_Pay",
+        "value": 0.0909
+      },
+      {
+        "label": "engagement_risk_score | Late_Invoices",
+        "value": 0.0658
+      },
+      {
+        "label": "engagement_risk_score | Outstanding_Balance",
+        "value": -0.041
+      },
+      {
+        "label": "engagement_risk_score | Discount_pct",
+        "value": 0.015
+      },
+      {
+        "label": "engagement_risk_score | Seats",
+        "value": -0.0489
+      },
+      {
+        "label": "engagement_risk_score | Initial_MRR",
+        "value": 0.0232
+      },
+      {
+        "label": "engagement_risk_score | CAC",
+        "value": -0.1189
+      },
+      {
+        "label": "engagement_risk_score | engagement_risk_score",
+        "value": 1.0
+      },
+      {
+        "label": "engagement_risk_score | is_churned",
+        "value": 0.7405
+      },
+      {
+        "label": "is_churned | Product_Usage_Score",
+        "value": -0.3114
+      },
+      {
+        "label": "is_churned | Last_Login_Days_Ago",
+        "value": 0.8719
+      },
+      {
+        "label": "is_churned | Support_Tickets_90d",
+        "value": 0.0888
+      },
+      {
+        "label": "is_churned | NPS_Rating",
+        "value": -0.1962
+      },
+      {
+        "label": "is_churned | Avg_Days_to_Pay",
+        "value": -0.1403
+      },
+      {
+        "label": "is_churned | Late_Invoices",
+        "value": -0.0983
+      },
+      {
+        "label": "is_churned | Outstanding_Balance",
+        "value": -0.1222
+      },
+      {
+        "label": "is_churned | Discount_pct",
+        "value": -0.1364
+      },
+      {
+        "label": "is_churned | Seats",
+        "value": -0.2279
+      },
+      {
+        "label": "is_churned | Initial_MRR",
+        "value": -0.1701
+      },
+      {
+        "label": "is_churned | CAC",
+        "value": -0.2336
+      },
+      {
+        "label": "is_churned | engagement_risk_score",
+        "value": 0.7405
+      },
+      {
+        "label": "is_churned | is_churned",
+        "value": 1.0
+      }
+    ]
+  },
+  "pr_curve": {
+    "type": "line",
+    "title": "Precision vs recall",
+    "data": [
+      {
+        "label": "1.0",
+        "value": 0.336
+      },
+      {
+        "label": "1.0",
+        "value": 0.35
+      },
+      {
+        "label": "1.0",
+        "value": 0.3652
+      },
+      {
+        "label": "1.0",
+        "value": 0.3818
+      },
+      {
+        "label": "1.0",
+        "value": 0.4
+      },
+      {
+        "label": "1.0",
+        "value": 0.42
+      },
+      {
+        "label": "1.0",
+        "value": 0.4421
+      },
+      {
+        "label": "1.0",
+        "value": 0.4667
+      },
+      {
+        "label": "1.0",
+        "value": 0.4941
+      },
+      {
+        "label": "1.0",
+        "value": 0.525
+      },
+      {
+        "label": "1.0",
+        "value": 0.56
+      },
+      {
+        "label": "1.0",
+        "value": 0.6
+      },
+      {
+        "label": "1.0",
+        "value": 0.6462
+      },
+      {
+        "label": "1.0",
+        "value": 0.7
+      },
+      {
+        "label": "1.0",
+        "value": 0.7636
+      },
+      {
+        "label": "1.0",
+        "value": 0.84
+      },
+      {
+        "label": "0.976",
+        "value": 0.9111
+      },
+      {
+        "label": "0.929",
+        "value": 0.975
+      },
+      {
+        "label": "0.833",
+        "value": 1.0
+      },
+      {
+        "label": "0.714",
+        "value": 1.0
+      },
+      {
+        "label": "0.595",
+        "value": 1.0
+      },
+      {
+        "label": "0.476",
+        "value": 1.0
+      },
+      {
+        "label": "0.357",
+        "value": 1.0
+      },
+      {
+        "label": "0.238",
+        "value": 1.0
+      },
+      {
+        "label": "0.119",
+        "value": 1.0
+      },
+      {
+        "label": "0.0",
+        "value": 1.0
+      }
+    ]
+  },
+  "calibration_curve": {
+    "type": "line",
+    "title": "Observed vs predicted churn",
+    "data": [
+      {
+        "label": "0.016",
+        "value": 0.0
+      },
+      {
+        "label": "0.017",
+        "value": 0.0
+      },
+      {
+        "label": "0.023",
+        "value": 0.0
+      },
+      {
+        "label": "0.106",
+        "value": 0.1
+      },
+      {
+        "label": "0.821",
+        "value": 0.9048
+      },
+      {
+        "label": "0.965",
+        "value": 1.0
+      }
+    ]
+  },
+  "permutation_importance": {
+    "type": "bar",
+    "title": "Top drivers (permutation importance)",
+    "data": [
+      {
+        "label": "login recency band",
+        "value": 0.1114
+      },
+      {
+        "label": "inactive flag",
+        "value": 0.0505
+      },
+      {
+        "label": "CAC Payback Months",
+        "value": 0.0
+      },
+      {
+        "label": "Discount pct",
+        "value": 0.0
+      },
+      {
+        "label": "expansion flag",
+        "value": 0.0
+      },
+      {
+        "label": "Support Tickets 90d",
+        "value": 0.0
+      },
+      {
+        "label": "usage per seat",
+        "value": 0.0
+      },
+      {
+        "label": "contraction flag",
+        "value": 0.0
+      },
+      {
+        "label": "Seats",
+        "value": 0.0
+      },
+      {
+        "label": "Acquisition Channel",
+        "value": 0.0
+      },
+      {
+        "label": "discount depth band",
+        "value": 0.0
+      },
+      {
+        "label": "Company Size",
+        "value": 0.0
+      },
+      {
+        "label": "Region",
+        "value": 0.0
+      },
+      {
+        "label": "plan x cycle",
+        "value": 0.0
+      },
+      {
+        "label": "size x channel",
+        "value": 0.0
+      }
+    ]
+  },
+  "forecast_mrr_base": {
+    "type": "line",
+    "title": "MRR run-off (base)",
+    "data": [
+      {
+        "label": "2026-09",
+        "value": 423839.67
+      },
+      {
+        "label": "2026-10",
+        "value": 417119.2245
+      },
+      {
+        "label": "2026-11",
+        "value": 413177.1869
+      },
+      {
+        "label": "2026-12",
+        "value": 409250.5398
+      },
+      {
+        "label": "2027-01",
+        "value": 399094.9394
+      },
+      {
+        "label": "2027-02",
+        "value": 394044.0471
+      },
+      {
+        "label": "2027-03",
+        "value": 389518.7193
+      }
+    ]
+  },
+  "forecast_mrr_worst": {
+    "type": "line",
+    "title": "MRR run-off (worst)",
+    "data": [
+      {
+        "label": "2026-09",
+        "value": 423839.67
+      },
+      {
+        "label": "2026-10",
+        "value": 415487.0915
+      },
+      {
+        "label": "2026-11",
+        "value": 411108.7109
+      },
+      {
+        "label": "2026-12",
+        "value": 406387.4794
+      },
+      {
+        "label": "2027-01",
+        "value": 392822.0606
+      },
+      {
+        "label": "2027-02",
+        "value": 385832.7051
+      },
+      {
+        "label": "2027-03",
+        "value": 381172.8494
+      }
+    ]
+  },
+  "forecast_mrr_best": {
+    "type": "line",
+    "title": "MRR run-off (best)",
+    "data": [
+      {
+        "label": "2026-09",
+        "value": 423839.67
+      },
+      {
+        "label": "2026-10",
+        "value": 419621.7348
+      },
+      {
+        "label": "2026-11",
+        "value": 415495.5251
+      },
+      {
+        "label": "2026-12",
+        "value": 411579.5655
+      },
+      {
+        "label": "2027-01",
+        "value": 405664.4807
+      },
+      {
+        "label": "2027-02",
+        "value": 402058.8406
+      },
+      {
+        "label": "2027-03",
+        "value": 397812.4715
+      }
+    ]
+  }
+}

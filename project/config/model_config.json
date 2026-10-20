@@ -1,0 +1,7 @@
+{
+  "churn_threshold": 0.2528,
+  "band_edges": {
+    "medium": 0.25,
+    "high": 0.5
+  }
+}

@@ -1,0 +1,334 @@
+Customer_ID,Company,segment,is_anomaly,anomaly_reason,ARR
+C0001,Quantum Logistics,Champions,0,,432.0
+C0002,Summit Labs,Champions,0,,4043.52
+C0005,Harbor Capital,Champions,0,,3305.76
+C0006,Harbor Works,Champions,0,,13617.48
+C0010,Pioneer Works,At-Risk,0,,453.72
+C0011,Cobalt Labs,Stable,0,,100919.28
+C0013,Nova Studios,Champions,0,,1942.08
+C0014,Sterling Logistics,Stable,0,,15302.16
+C0016,Pulse Networks,Stable,0,,15704.28
+C0019,Bright Health,Champions,0,,621.96
+C0021,Zenith Retail,Stable,0,,2945.4
+C0022,Bright Networks,Stable,0,,2806.44
+C0023,Apex Works,Champions,0,,2393.4
+C0025,Lumen Works,Champions,0,,4024.68
+C0026,Orbit Logistics LLC,Champions,0,,2865.12
+C0027,Sterling Group,Champions,0,,753.24
+C0028,Quantum Dynamics,Champions,0,,1130.16
+C0029,Summit Dynamics,Champions,0,,4843.8
+C0032,Cedar Health,Stable,0,,24814.32
+C0033,Lumen Systems,Stable,0,,22508.28
+C0036,Northwind Works,Stable,0,,37520.76
+C0037,Summit Networks,Champions,0,,2314.8
+C0038,Ember Works Co,At-Risk,0,,616.2
+C0039,Pioneer Retail,At-Risk,0,,4333.08
+C0040,Northwind Dynamics,Champions,0,,287.4
+C0041,Mosaic Solutions,Stable,0,,18967.2
+C0042,Cedar Retail,At-Risk,0,,300.72
+C0044,Sterling Dynamics,Stable,0,,19809.72
+C0046,Harbor Dynamics,Champions,0,,2694.24
+C0047,Apex Solutions,Stable,0,,3558.84
+C0049,Ember Works Inc,At-Risk,0,,2773.68
+C0050,Quantum Studios,Champions,0,,4932.96
+C0051,Summit Systems,Champions,0,,1055.04
+C0053,Orbit Logistics,Champions,0,,5414.4
+C0055,Summit Capital,Champions,0,,2047.08
+C0056,Mosaic Partners,Champions,0,,3531.96
+C0057,Zenith Analytics,Champions,0,,4790.88
+C0058,Sterling Retail,Champions,0,,3052.2
+C0059,Mosaic Capital,Champions,0,,924.12
+C0060,Pulse Group Inc,Champions,0,,8063.4
+C0061,Lumen Group,Champions,0,,1937.52
+C0063,Cobalt Retail,Champions,0,,2520.0
+C0067,Atlas Logistics,At-Risk,0,,691.56
+C0069,Lumen Health,Stable,0,,9457.56
+C0071,Nova Networks,Champions,0,,3281.28
+C0072,Blue Partners,Champions,0,,4422.0
+C0074,Quantum Analytics Inc,Stable,0,,122585.4
+C0075,Pioneer Group,Stable,0,,31815.0
+C0078,Pulse Retail,Stable,0,,130823.76
+C0080,Nova Health,At-Risk,0,,528.6
+C0081,Northwind Logistics Inc,At-Risk,0,,326.76
+C0082,Atlas Partners,Champions,0,,2047.8
+C0083,Atlas Labs,Champions,0,,3092.04
+C0084,Summit Solutions,Champions,0,,799.92
+C0085,Summit Works,Champions,0,,273.12
+C0086,Harbor Analytics,Champions,0,,2977.44
+C0087,Sterling Health,Stable,0,,7192.8
+C0088,Atlas Health,Champions,0,,4284.0
+C0089,Vertex Health,Champions,0,,4869.84
+C0091,Apex Studios,Stable,0,,36141.96
+C0093,Blue Group,Stable,0,,87422.4
+C0094,Summit Digital,Stable,0,,38943.84
+C0095,Apex Health Inc,At-Risk,0,,1274.4
+C0096,Apex Retail Inc,At-Risk,0,,641.04
+C0098,Harbor Studios,Stable,0,,31497.24
+C0100,Nova Labs,Champions,0,,5274.72
+C0101,Northwind Logistics,Stable,0,,34424.04
+C0103,Atlas Networks Inc,Champions,0,,3285.48
+C0108,Cedar Studios,Stable,1,High balance to mrr (z=4.0),19223.28
+C0109,Bright Labs,Champions,0,,2717.16
+C0110,Ember Group Ltd,At-Risk,0,,218.28
+C0111,Orbit Works,At-Risk,0,,1257.72
+C0113,Zenith Solutions,Champions,0,,5229.36
+C0115,Cedar Partners,Champions,0,,268.68
+C0117,Summit Health,At-Risk,0,,979.92
+C0118,Ember Capital,At-Risk,0,,2027.88
+C0119,Nova Works,At-Risk,0,,233.64
+C0121,Lumen Studios,Champions,0,,4034.52
+C0122,Pulse Solutions,Stable,1,High balance to mrr (z=3.0),26005.56
+C0123,Quantum Health,Stable,0,,5965.68
+C0125,Ember Dynamics,Champions,0,,285.12
+C0126,Nova Digital,At-Risk,0,,756.36
+C0128,Mosaic Logistics LLC,Stable,0,,32000.16
+C0130,Nova Works Inc,At-Risk,1,High Last Login Days Ago (z=4.1),1853.64
+C0131,Apex Capital Co,Stable,0,,64740.36
+C0132,Atlas Systems,Stable,0,,32376.12
+C0133,Mosaic Systems Inc,Stable,0,,17329.32
+C0134,Pioneer Capital,Stable,0,,14334.6
+C0136,Northwind Group,Champions,0,,4953.12
+C0137,Mosaic Partners LLC,Stable,0,,32136.24
+C0138,Summit Solutions LLC,Stable,0,,31444.32
+C0140,Blue Health,Stable,0,,15108.96
+C0141,Bright Analytics Co,Stable,0,,7954.08
+C0143,Ember Digital,Champions,0,,1156.8
+C0144,Zenith Systems,Champions,0,,590.76
+C0145,Nova Retail LLC,Stable,1,High Outstanding Balance (z=7.0),54854.4
+C0146,Harbor Digital,Champions,0,,693.48
+C0148,Zenith Digital,Champions,0,,1878.84
+C0153,Bright Logistics,Champions,0,,3240.0
+C0154,Quantum Partners Ltd,At-Risk,0,,557.88
+C0157,Orbit Health Co,Stable,0,,13515.12
+C0158,Vertex Group,Champions,0,,3624.6
+C0160,Apex Logistics,Stable,1,High Outstanding Balance (z=6.2),36619.92
+C0161,Ember Solutions,At-Risk,0,,2484.72
+C0162,Apex Digital,Champions,0,,5101.56
+C0163,Apex Group Inc,At-Risk,0,,423.48
+C0164,Cobalt Works Co,Stable,0,,17594.28
+C0166,Northwind Studios,At-Risk,0,,382.8
+C0167,Blue Dynamics Inc,Stable,1,High Outstanding Balance (z=7.0),125472.0
+C0168,Bright Group,Champions,0,,270.6
+C0169,Bright Partners,At-Risk,0,,268.8
+C0170,Quantum Networks Inc,Champions,0,,4919.76
+C0171,Zenith Labs,Champions,0,,291.6
+C0174,Apex Retail,Stable,0,,55847.88
+C0175,Cobalt Works,Stable,0,,117228.12
+C0176,Cobalt Studios Ltd,At-Risk,0,,401.52
+C0178,Mosaic Health,At-Risk,0,,239.76
+C0181,Cobalt Partners Co,Stable,0,,25347.36
+C0182,Blue Group Co,At-Risk,0,,2244.24
+C0183,Summit Partners,Stable,0,,21046.68
+C0184,Sterling Works,Stable,0,,111800.04
+C0186,Harbor Health,Champions,0,,7207.8
+C0187,Blue Studios,Stable,0,,19523.04
+C0188,Sterling Retail Co,At-Risk,0,,334.92
+C0190,Bright Capital LLC,Champions,0,,287.4
+C0191,Harbor Solutions,Champions,0,,265.68
+C0192,Apex Health,Champions,0,,3225.6
+C0193,Cedar Dynamics,Champions,0,,2635.56
+C0194,Mosaic Digital Ltd,Champions,0,,6592.56
+C0195,Cobalt Dynamics Ltd,Champions,0,,2469.84
+C0197,Lumen Retail LLC,Stable,0,,13926.0
+C0200,Nova Digital Inc,At-Risk,0,,646.2
+C0201,Cedar Logistics,Stable,0,,16837.2
+C0204,Cedar Logistics Inc,Stable,0,,18691.8
+C0205,Nova Labs Inc,Stable,0,,26147.16
+C0206,Pulse Works,Stable,0,,17113.68
+C0207,Blue Capital,At-Risk,0,,268.2
+C0208,Northwind Studios Inc,At-Risk,0,,450.84
+C0209,Sterling Networks,Champions,0,,13183.8
+C0210,Ember Analytics,Stable,0,,25438.92
+C0212,Orbit Dynamics,Champions,0,,4159.92
+C0214,Atlas Networks,Stable,0,,5661.0
+C0216,Cedar Dynamics Ltd,Champions,0,,297.36
+C0217,Vertex Networks LLC,At-Risk,0,,717.36
+C0218,Pioneer Studios,Champions,0,,11355.24
+C0222,Cedar Works,Champions,0,,7407.84
+C0225,Vertex Labs LLC,Champions,0,,828.12
+C0226,Harbor Studios LLC,At-Risk,0,,281.88
+C0227,Lumen Digital,Champions,0,,4151.4
+C0228,Summit Capital Ltd,Stable,1,High Outstanding Balance (z=7.0),126114.48
+C0229,Summit Capital Inc,Champions,0,,6088.56
+C0230,Northwind Health Ltd,Stable,0,,22927.32
+C0231,Cobalt Retail Co,Champions,0,,330.48
+C0232,Vertex Digital Inc,At-Risk,0,,440.04
+C0233,Mosaic Digital Co,Stable,0,,11768.76
+C0234,Vertex Networks,Champions,0,,1122.84
+C0235,Orbit Digital,Champions,0,,590.16
+C0236,Nova Works Co,Champions,0,,1333.8
+C0237,Cobalt Group,At-Risk,0,,287.88
+C0239,Nova Networks Co,Stable,0,,6182.64
+C0240,Zenith Capital Co,Champions,0,,3366.48
+C0241,Mosaic Group Ltd,Stable,0,,24666.96
+C0243,Quantum Systems,Stable,1,High Outstanding Balance (z=7.0),139399.68
+C0244,Ember Studios Ltd,Champions,0,,1808.52
+C0247,Nova Capital Inc,At-Risk,0,,3274.8
+C0248,Cedar Digital Co,Champions,0,,511.2
+C0250,Orbit Works LLC,At-Risk,0,,319.56
+C0251,Vertex Retail,Stable,0,,91265.4
+C0252,Pulse Partners,Champions,0,,543.24
+C0255,Cobalt Systems,Stable,0,,6142.68
+C0256,Apex Labs,At-Risk,0,,1717.68
+C0257,Apex Dynamics,Champions,0,,3491.88
+C0258,Cobalt Solutions Inc,Stable,1,High Late Invoices (z=4.8),120466.2
+C0259,Vertex Systems Ltd,Stable,0,,88536.0
+C0260,Harbor Capital Inc,Champions,0,,5683.32
+C0261,Ember Networks,Champions,0,,4548.12
+C0262,Orbit Digital Inc,At-Risk,0,,1137.84
+C0263,Lumen Labs,Champions,0,,5592.84
+C0264,Nova Retail,Stable,0,,34542.48
+C0265,Atlas Retail Inc,Champions,0,,7473.12
+C0266,Ember Group Inc,Champions,0,,884.28
+C0270,Nova Group LLC,Stable,0,,3472.68
+C0272,Cobalt Networks,Stable,0,,73231.32
+C0273,Nova Health Ltd,Stable,0,,73832.76
+C0274,Cedar Digital LLC,Stable,0,,34084.2
+C0275,Bright Works,Champions,0,,1855.56
+C0276,Pioneer Studios LLC,Champions,0,,3565.92
+C0278,Apex Capital,At-Risk,0,,257.88
+C0279,Apex Group,At-Risk,0,,290.64
+C0281,Vertex Partners Ltd,Champions,0,,6339.0
+C0284,Quantum Partners Inc,Stable,1,High Outstanding Balance (z=4.7),29847.12
+C0285,Quantum Analytics Ltd,Stable,0,,36015.12
+C0286,Vertex Capital Co,Stable,0,,8435.64
+C0287,Vertex Dynamics Inc,Stable,1,High balance to mrr (z=4.7),25160.52
+C0288,Mosaic Works LLC,Stable,0,,113753.88
+C0290,Pulse Capital,Champions,0,,10754.16
+C0291,Bright Networks Inc,Champions,0,,3434.88
+C0292,Orbit Health,At-Risk,0,,1419.12
+C0293,Apex Digital Inc,Stable,0,,20110.8
+C0295,Pioneer Analytics,Stable,0,,26430.12
+C0296,Orbit Networks,Champions,0,,2752.68
+C0299,Lumen Capital,At-Risk,0,,591.84
+C0300,Summit Group,Stable,0,,13953.0
+C0301,Sterling Solutions,Stable,0,,18836.16
+C0304,Lumen Retail Inc,Stable,0,,3866.64
+C0305,Blue Analytics,At-Risk,0,,268.56
+C0307,Cedar Capital Inc,At-Risk,0,,696.6
+C0308,Zenith Group Co,Champions,0,,2966.52
+C0311,Quantum Partners,At-Risk,0,,556.08
+C0312,Vertex Labs,Stable,0,,16237.56
+C0313,Quantum Studios Inc,Champions,0,,2360.52
+C0314,Northwind Retail,Stable,0,,16263.72
+C0317,Quantum Works LLC,Stable,0,,3249.24
+C0319,Mosaic Retail,Champions,0,,331.8
+C0320,Bright Partners Inc,Champions,0,,294.0
+C0321,Ember Dynamics LLC,Stable,0,,19985.52
+C0323,Atlas Studios Ltd,Champions,0,,4113.6
+C0324,Harbor Analytics Ltd,Stable,0,,31543.44
+C0326,Nova Capital,Stable,0,,24981.48
+C0328,Lumen Dynamics Co,Champions,0,,4473.48
+C0329,Atlas Studios LLC,Stable,0,,20195.76
+C0330,Mosaic Retail Co,Stable,0,,36118.56
+C0331,Pulse Capital Inc,Champions,0,,251.16
+C0332,Pioneer Networks Ltd,Stable,0,,13584.96
+C0333,Bright Health Co,Champions,0,,4625.4
+C0335,Lumen Solutions Co,Stable,0,,15316.92
+C0336,Sterling Partners,At-Risk,0,,811.68
+C0338,Orbit Digital LLC,Champions,0,,3149.64
+C0339,Orbit Labs,Stable,0,,119396.28
+C0340,Apex Group Co,Stable,0,,84015.36
+C0341,Bright Works Ltd,Stable,0,,32823.36
+C0342,Ember Logistics,Stable,0,,22214.52
+C0343,Cedar Studios Co,At-Risk,0,,285.72
+C0345,Quantum Analytics,Stable,0,,15400.44
+C0348,Zenith Dynamics,At-Risk,0,,397.68
+C0349,Mosaic Health Inc,Champions,0,,394.08
+C0350,Northwind Health Co,Stable,0,,21615.0
+C0353,Zenith Networks Co,At-Risk,0,,272.16
+C0354,Pioneer Solutions Inc,Champions,0,,7076.52
+C0356,Blue Capital Inc,Champions,0,,7705.68
+C0358,Nova Analytics LLC,Champions,0,,2471.52
+C0359,Atlas Works Co,Champions,0,,705.36
+C0360,Pioneer Group Inc,Champions,0,,2887.32
+C0362,Blue Logistics Co,Champions,0,,228.96
+C0363,Summit Digital Inc,Stable,0,,19273.56
+C0364,Northwind Capital LLC,Stable,0,,16663.56
+C0366,Apex Dynamics Co,Champions,0,,6318.96
+C0367,Lumen Analytics Co,Stable,0,,10492.92
+C0368,Orbit Studios LLC,At-Risk,0,,291.72
+C0369,Blue Networks,Stable,0,,87156.24
+C0370,Zenith Digital Ltd,Champions,0,,275.28
+C0371,Sterling Systems Ltd,Champions,0,,5826.6
+C0373,Nova Retail Inc,Champions,0,,12152.16
+C0374,Bright Studios Ltd,At-Risk,0,,1542.72
+C0378,Harbor Systems,Champions,0,,641.52
+C0380,Zenith Analytics LLC,At-Risk,1,High Late Invoices (z=3.5),410.64
+C0382,Pioneer Digital Ltd,Champions,0,,4984.56
+C0383,Cedar Health LLC,Champions,0,,4096.08
+C0385,Orbit Health Ltd,Champions,0,,2169.0
+C0387,Cobalt Group Inc,At-Risk,0,,369.0
+C0388,Vertex Systems Co,Stable,0,,86786.28
+C0391,Vertex Works LLC,Stable,0,,10323.48
+C0393,Cedar Digital Ltd,Champions,0,,5419.56
+C0394,Mosaic Analytics,Champions,0,,6192.12
+C0395,Apex Retail LLC,Champions,0,,6036.12
+C0396,Quantum Labs LLC,Stable,0,,16456.56
+C0398,Orbit Capital,Stable,0,,19128.36
+C0400,Quantum Group Ltd,Stable,0,,5621.4
+C0403,Blue Studios Inc,Champions,0,,761.16
+C0404,Lumen Systems Ltd,At-Risk,0,,265.56
+C0406,Zenith Capital,Champions,0,,2595.72
+C0408,Vertex Studios Co,Stable,0,,31600.08
+C0410,Zenith Logistics Inc,Stable,0,,21425.4
+C0411,Blue Labs,At-Risk,0,,276.6
+C0412,Ember Health LLC,Champions,0,,1479.48
+C0413,Lumen Analytics,Champions,0,,9069.96
+C0414,Mosaic Partners Co,Champions,0,,15497.52
+C0415,Nova Analytics,Champions,0,,4104.84
+C0416,Northwind Systems,Champions,0,,451.2
+C0418,Summit Dynamics Co,At-Risk,0,,684.72
+C0420,Vertex Studios Ltd,Champions,0,,4957.32
+C0421,Mosaic Systems Co,Champions,0,,1193.76
+C0422,Cedar Systems Co,Champions,0,,2906.4
+C0423,Nova Capital Ltd,Champions,0,,1707.0
+C0424,Blue Partners Inc,Stable,0,,25097.88
+C0425,Bright Capital Ltd,Champions,0,,994.44
+C0429,Apex Group LLC,Stable,1,High Late Invoices (z=4.8),97770.72
+C0430,Pioneer Systems LLC,Stable,0,,11226.84
+C0432,Pioneer Dynamics,Champions,0,,288.36
+C0434,Cobalt Logistics Co,Stable,0,,106859.76
+C0436,Cedar Solutions LLC,At-Risk,0,,268.68
+C0437,Northwind Partners,Stable,0,,10077.24
+C0438,Lumen Networks,At-Risk,0,,548.76
+C0441,Bright Partners Ltd,Champions,0,,6971.88
+C0442,Vertex Works Inc,Champions,0,,3213.24
+C0443,Vertex Logistics Ltd,Stable,0,,15238.44
+C0444,Apex Labs Inc,Champions,0,,2262.84
+C0446,Cedar Works Co,Champions,0,,726.36
+C0447,Pulse Dynamics Co,Stable,1,High Outstanding Balance (z=3.6),32702.04
+C0449,Atlas Labs Inc,Stable,0,,2812.2
+C0450,Zenith Networks,Champions,0,,1684.08
+C0451,Orbit Health Inc,Stable,1,High Avg Days to Pay (z=2.9),64358.28
+C0452,Blue Digital Ltd,Champions,0,,840.48
+C0454,Pulse Health Co,Champions,0,,8218.8
+C0455,Vertex Dynamics LLC,Champions,0,,315.84
+C0458,Summit Logistics Co,Stable,0,,13086.48
+C0459,Zenith Logistics Co,Champions,0,,363.84
+C0462,Pulse Partners Co,Champions,0,,2643.36
+C0463,Mosaic Dynamics Ltd,Stable,1,High Current MRR (z=3.7),116354.64
+C0464,Apex Systems LLC,Stable,0,,7761.36
+C0465,Cobalt Studios Inc,At-Risk,0,,767.64
+C0466,Northwind Solutions LLC,At-Risk,0,,461.64
+C0467,Pioneer Health,Champions,0,,1470.72
+C0468,Pulse Partners Inc,Stable,1,High balance to mrr (z=4.5),15134.16
+C0470,Ember Capital Co,Champions,0,,6105.48
+C0474,Mosaic Networks Co,Stable,0,,23986.8
+C0477,Bright Solutions,Stable,0,,14647.56
+C0478,Nova Solutions Ltd,Stable,0,,24119.4
+C0479,Blue Solutions Co,Champions,0,,536.04
+C0480,Cedar Digital Inc,Stable,0,,22766.16
+C0482,Pioneer Solutions Ltd,Champions,0,,3261.36
+C0484,Apex Networks Co,Champions,0,,3981.36
+C0485,Quantum Works Co,Champions,0,,969.36
+C0486,Harbor Partners,Stable,0,,92160.24
+C0487,Orbit Solutions Inc,Champions,0,,296.16
+C0488,Blue Capital Ltd,Stable,0,,3599.76
+C0489,Zenith Partners Ltd,Stable,0,,19325.76
+C0492,Cobalt Dynamics,At-Risk,0,,1310.4
+C0493,Pioneer Labs Ltd,Champions,0,,2562.24
+C0494,Orbit Group Co,Stable,0,,28459.2
+C0496,Zenith Systems Ltd,Stable,0,,12059.52
+C0497,Quantum Studios LLC,Champions,0,,2370.36
+C0498,Pulse Capital Ltd,Champions,0,,3431.04

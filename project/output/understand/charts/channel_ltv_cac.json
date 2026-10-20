@@ -1,0 +1,30 @@
+{
+  "type": "bar",
+  "title": "LTV:CAC by channel",
+  "data": [
+    {
+      "label": "Events",
+      "value": 3.3161
+    },
+    {
+      "label": "Outbound Sales",
+      "value": 4.1241
+    },
+    {
+      "label": "Paid Search",
+      "value": 8.3631
+    },
+    {
+      "label": "Partner/Referral",
+      "value": 9.8126
+    },
+    {
+      "label": "LinkedIn Ads",
+      "value": 10.3666
+    },
+    {
+      "label": "Organic SEO",
+      "value": 29.7976
+    }
+  ]
+}

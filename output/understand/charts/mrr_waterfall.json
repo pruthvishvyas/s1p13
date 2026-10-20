@@ -1,0 +1,26 @@
+{
+  "type": "bar",
+  "title": "MRR waterfall",
+  "data": [
+    {
+      "label": "New MRR",
+      "value": 468547.14
+    },
+    {
+      "label": "Expansion",
+      "value": 38969.14
+    },
+    {
+      "label": "Contraction",
+      "value": -2472.03
+    },
+    {
+      "label": "Churn",
+      "value": -81204.58
+    },
+    {
+      "label": "Active MRR now",
+      "value": 423839.67
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "title": "Churn rate by login recency (%)",
+  "data": [
+    {
+      "label": "0-7",
+      "value": 0.0
+    },
+    {
+      "label": "8-30",
+      "value": 40.3509
+    },
+    {
+      "label": "31-60",
+      "value": 100.0
+    },
+    {
+      "label": "60+",
+      "value": 100.0
+    }
+  ]
+}

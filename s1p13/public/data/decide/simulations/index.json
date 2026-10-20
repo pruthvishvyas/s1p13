@@ -1,0 +1,8 @@
+{
+  "simulations": [
+    "channel_budget_shift",
+    "discount_policy_impact",
+    "price_change_impact",
+    "retention_campaign_roi"
+  ]
+}

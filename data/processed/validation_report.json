@@ -1,0 +1,139 @@
+{
+  "rows": 500,
+  "cols": 35,
+  "null_counts": {
+    "Customer_ID": 0,
+    "Company": 0,
+    "Industry": 0,
+    "Region": 0,
+    "Company_Size": 0,
+    "Acquisition_Channel": 0,
+    "Signup_Date": 0,
+    "Plan": 0,
+    "Billing_Cycle": 0,
+    "Seats": 0,
+    "List_Price_per_Seat": 0,
+    "Discount_pct": 0,
+    "Initial_MRR": 0,
+    "Current_MRR": 0,
+    "Expansion_pct": 0,
+    "Status": 0,
+    "Churn_Date": 333,
+    "Months_Active": 0,
+    "Churn_Reason": 333,
+    "CAC": 0,
+    "Gross_Margin_pct": 0,
+    "Lifetime_Revenue": 0,
+    "Lifetime_Gross_Profit": 0,
+    "LTV_to_CAC_Realized": 0,
+    "CAC_Payback_Months": 0,
+    "Product_Usage_Score": 0,
+    "Last_Login_Days_Ago": 0,
+    "Support_Tickets_90d": 0,
+    "NPS_Rating": 0,
+    "Avg_Days_to_Pay": 0,
+    "Late_Invoices": 0,
+    "Outstanding_Balance": 0,
+    "Health_Score": 0,
+    "Churn_Risk": 0,
+    "ARR_Current": 0
+  },
+  "integrity": {
+    "initial_mrr_formula": {
+      "pass_rate": 1.0,
+      "n_checked": 500,
+      "failed_ids": [],
+      "annual_rows_normalized_by_12": 0
+    },
+    "current_mrr_formula": {
+      "pass_rate": 1.0,
+      "n_checked": 500,
+      "failed_ids": []
+    },
+    "arr_formula_active": {
+      "pass_rate": 1.0,
+      "n_checked": 333,
+      "failed_ids": []
+    },
+    "arr_churned_zero_share": 1.0,
+    "lifetime_gp_formula": {
+      "pass_rate": 1.0,
+      "n_checked": 500,
+      "failed_ids": []
+    },
+    "ltv_cac_formula": {
+      "pass_rate": 1.0,
+      "n_checked": 500,
+      "failed_ids": []
+    },
+    "payback_formula": {
+      "pass_rate": 1.0,
+      "n_checked": 500,
+      "failed_ids": []
+    },
+    "status_vs_churn_fields": {
+      "pass_rate": 1.0,
+      "n_checked": 500,
+      "failed_ids": []
+    },
+    "months_active_vs_dates": {
+      "pass_rate": 1.0,
+      "n_checked": 500,
+      "failed_ids": []
+    }
+  },
+  "integrity_ok": {
+    "initial_mrr_formula": true,
+    "current_mrr_formula": true,
+    "arr_formula_active": true,
+    "lifetime_gp_formula": true,
+    "ltv_cac_formula": true,
+    "payback_formula": true,
+    "status_vs_churn_fields": true,
+    "months_active_vs_dates": true
+  },
+  "target_balance": {
+    "churned": 167,
+    "active": 333,
+    "other": 0,
+    "churn_rate": 0.334
+  },
+  "schema_ok": true,
+  "min_rows_ok": true,
+  "ml_ok": true,
+  "unparseable_dates": {
+    "Signup_Date": 0,
+    "Churn_Date": 0
+  },
+  "range_violations": {
+    "Discount_pct": 0,
+    "Gross_Margin_pct": 0,
+    "Product_Usage_Score": 0,
+    "NPS_Rating": 0,
+    "Health_Score": 0,
+    "Seats": 0,
+    "Current_MRR": 0,
+    "Initial_MRR": 0,
+    "CAC": 0
+  },
+  "usage_scale": 100.0,
+  "as_of_date": "2026-09-29",
+  "extra_columns": [],
+  "thresholds_assumed": {
+    "LTV_CAC_MIN": 3.0,
+    "PAYBACK_MAX_MONTHS": 12,
+    "PAYBACK_CRITICAL": 18,
+    "INACTIVE_LOGIN_DAYS": 30,
+    "LOW_USAGE": 30,
+    "LOW_HEALTH": 50,
+    "DETRACTOR_NPS": 6,
+    "HIGH_TICKETS_90D": 5,
+    "LATE_PAY_DAYS": 45,
+    "LATE_INVOICES_MAX": 2,
+    "MAX_HEALTHY_DISCOUNT": 20,
+    "GRR_TARGET": 90,
+    "NRR_TARGET": 100,
+    "HIGH_USAGE": 70,
+    "PROMOTER_NPS": 9
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "severity": "HIGH",
+    "category": "Revenue Retention",
+    "finding": "Largest churn reason by MRR lost: Poor support experience (36159 MRR, 42% of lost MRR)",
+    "evidence": "Top 3 reasons: Poor support experience 36159, Low adoption / usage 21109, Switched to competitor 12247",
+    "action": "Build a retention play aimed at this reason.",
+    "outcome": "DECIDE"
+  },
+  {
+    "severity": "HIGH",
+    "category": "Pricing & Discounts",
+    "finding": "Churn by discount band: 0: 42.0% (n=50), 1-10: 38.7% (n=230), 11-20: 28.6% (n=126), 20+: 22.3% (n=94)",
+    "evidence": "73 active accounts exceed the 20% healthy-discount line",
+    "action": "Tie deeper discounts to usage commitments; do not renew deep discounts blindly.",
+    "outcome": "DECIDE"
+  },
+  {
+    "severity": "HIGH",
+    "category": "Revenue Retention",
+    "finding": "Expected ARR at risk is 184184 (3.6% of active ARR)",
+    "evidence": "Top accounts: Mosaic Dynamics Ltd (36034); Northwind Works (9599); Sterling Solutions (9345); Harbor Studios (8943); Pulse Dynamics Co (7919)",
+    "action": "Work the Save List top-down this week; start with P1 accounts.",
+    "outcome": "DECIDE"
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Channel Performance",
+    "finding": "Worst channel Events: LTV:CAC 3.32, payback 20.5 months (n=48); best Organic SEO: 29.80, 2.2 months",
+    "evidence": "Benchmarks: LTV:CAC >= 3.0, payback <= 12 months. Realized LTV is based on account age so young cohorts look worse.",
+    "action": "Shift budget from the worst to the best channel (see channel_budget_shift simulation).",
+    "outcome": "DECIDE"
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Collections",
+    "finding": "31 late-paying active accounts carry 97899 outstanding balance",
+    "evidence": "Total open balance on active accounts: 397438",
+    "action": "Offer auto-pay or annual prepay; start billing follow-up.",
+    "outcome": "DECIDE"
+  },
+  {
+    "severity": "MEDIUM",
+    "category": "Unit Economics",
+    "finding": "2 of 6 channels miss the LTV:CAC or payback benchmark",
+    "evidence": "Missing: Events, Outbound Sales",
+    "action": "Cut or reprice CAC in the flagged channels.",
+    "outcome": "DECIDE"
+  },
+  {
+    "severity": "LOW",
+    "category": "Revenue Retention",
+    "finding": "Highest-churn plan is Starter at 54.5% (n=167)",
+    "evidence": "Overall churn rate 33.4%",
+    "action": "Review onboarding and pricing for this plan.",
+    "outcome": "DECIDE"
+  },
+  {
+    "severity": "LOW",
+    "category": "Customer Health",
+    "finding": "0.0% of active accounts (0) have not logged in for 30+ days",
+    "evidence": "Their ARR: 0",
+    "action": "Run a re-onboarding session for these accounts.",
+    "outcome": "DECIDE"
+  },
+  {
+    "severity": "LOW",
+    "category": "Expansion Opportunity",
+    "finding": "0 promoter, high-usage accounts have not expanded",
+    "evidence": "Their ARR: 0",
+    "action": "Offer seat or tier upsell.",
+    "outcome": "DECIDE"
+  },
+  {
+    "severity": "LOW",
+    "category": "Revenue Retention",
+    "finding": "Churn model hold-out: PR-AUC 0.99 (base rate 0.34), ROC-AUC 1.00, recall@top20% 60%; primary scoring = model",
+    "evidence": "Leakage columns excluded: Status, Churn_Date, Churn_Reason, Months_Active, Lifetime_Revenue, Lifetime_Gross_Profit, LTV_to_CAC_Realized, ltv_cac_ok, tenure_months, Signup_Date; shuffled-target AUC 0.48",
+    "action": "Use probabilities to rank accounts; revisit signal if acceptance targets are not met.",
+    "outcome": "DECIDE"
+  }
+]

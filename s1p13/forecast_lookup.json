@@ -1,0 +1,44 @@
+{
+  "0": {
+    "value": 423839.67,
+    "confidence": null,
+    "range_low": 423839.67,
+    "range_high": 423839.67
+  },
+  "1": {
+    "value": 417119.2245,
+    "confidence": null,
+    "range_low": 415487.0915,
+    "range_high": 419621.7348
+  },
+  "2": {
+    "value": 413177.1869,
+    "confidence": null,
+    "range_low": 411108.7109,
+    "range_high": 415495.5251
+  },
+  "3": {
+    "value": 409250.5398,
+    "confidence": null,
+    "range_low": 406387.4794,
+    "range_high": 411579.5655
+  },
+  "4": {
+    "value": 399094.9394,
+    "confidence": null,
+    "range_low": 392822.0606,
+    "range_high": 405664.4807
+  },
+  "5": {
+    "value": 394044.0471,
+    "confidence": null,
+    "range_low": 385832.7051,
+    "range_high": 402058.8406
+  },
+  "6": {
+    "value": 389518.7193,
+    "confidence": null,
+    "range_low": 381172.8494,
+    "range_high": 397812.4715
+  }
+}

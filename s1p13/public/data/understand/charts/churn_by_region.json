@@ -1,0 +1,22 @@
+{
+  "type": "bar",
+  "title": "Churn rate by region",
+  "data": [
+    {
+      "label": "North America",
+      "value": 26.1682
+    },
+    {
+      "label": "Middle East",
+      "value": 33.3333
+    },
+    {
+      "label": "Europe",
+      "value": 39.8496
+    },
+    {
+      "label": "APAC",
+      "value": 40.7767
+    }
+  ]
+}
